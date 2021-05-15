@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-05-14T09:50:54.092+01:00
+  lastUpdatedAtString: 2021-05-14T11:30:06.520+01:00
   initializedAtString: 2021-05-14T09:50:54.076+01:00
-  localBranches: []
+  localBranches:
+  - name: main
+    tracking: origin/main
   remoteBranches:
   - name: origin/main
     tracking: '[None]'
@@ -28,8 +30,14 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - main
+    values:
+    - name: main
+      remote:
+        name: origin
+        url: https://github.com/PedroJuanTorres/teste.git
+      trackingBranch: main
   remoteConfigBranches:
     keys:
     - origin
