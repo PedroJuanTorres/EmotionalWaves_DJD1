@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
-    m_Keys: []
-    m_Values: 
+    m_Keys:
+    - Assets/Animations/Player/Fall.anim
+    - Assets/Animations/Player/JumpUp.anim
+    - Assets/Sprites/character/newjump_spritesheet.png.meta
+    - Assets/Sprites/character/run_spritesheet.png.meta
+    - 
+    m_Values: 0101010101
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
