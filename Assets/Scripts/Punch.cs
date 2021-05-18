@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Punch : MonoBehaviour
 {
-
     private CapsuleCollider2D punchCollider;
     // Start is called before the first frame update
     void Start()
@@ -17,6 +16,7 @@ public class Punch : MonoBehaviour
     {
         if(Input.GetButtonDown("Fire3"))
         { 
+
            //punchCollider.enabled = True
         }
     }

@@ -16,18 +16,22 @@ public class CameraMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Vector3 currentPos = transform.position;
-
-        if(followTarget != null)
+        if((followTarget.position.x>-670) && (followTarget.position.x<4570))
         {
-            Vector3 targetPos = followTarget.position;
-            Vector3 error = targetPos - currentPos;
+            Vector3 currentPos = transform.position;
 
-            targetPos = currentPos + error * followSpeed;
+            if(followTarget != null)
+            {
+                Vector3 targetPos = followTarget.position;
+                Vector3 error = targetPos - currentPos;
 
-            currentPos = new Vector3(targetPos.x, currentPos.y,currentPos.z);
+                targetPos = currentPos + error * followSpeed;
+
+                currentPos = new Vector3(targetPos.x, currentPos.y,currentPos.z);
+            }
+
+            transform.position = currentPos;
         }
-
-        transform.position = currentPos;
+        
     }
 }

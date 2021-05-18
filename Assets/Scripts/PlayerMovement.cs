@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     private float maxJumpTime = 0.1f;
     [SerializeField]
-    private int jumpGravetyStart = 1;
+    private int jumpGravityStart = 1;
     [SerializeField]
     private Transform groundCheckObject;
     [SerializeField]
@@ -24,6 +24,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     private float timeOfJump;
+    private bool isPunching = false;
+    private bool isCrouching = false;
 
     // Start is called before the first frame update
     void Start()
@@ -56,7 +58,7 @@ public class PlayerMovement : MonoBehaviour
 
             rb.velocity = currentVelocity;
 
-            rb.gravityScale = jumpGravetyStart;
+            rb.gravityScale = jumpGravityStart;
 
             timeOfJump = Time.time;
         }
@@ -65,7 +67,7 @@ public class PlayerMovement : MonoBehaviour
             float elapsedTimeSinceJump = Time.time - timeOfJump;
             if(Input.GetButton("Jump") && (elapsedTimeSinceJump < maxJumpTime))
             {
-                rb.gravityScale = jumpGravetyStart;
+                rb.gravityScale = jumpGravityStart;
             }
             else
             {
@@ -86,8 +88,40 @@ public class PlayerMovement : MonoBehaviour
             transform.rotation = Quaternion.Euler(currentRotation);
         }
 
+        //Punch
+        if(Input.GetButton("Fire3") && (isGround))
+        { 
+           //punchCollider.enabled = True
+
+            isPunching = true;
+        }  
+        if(Input.GetButtonUp("Fire3") || (isGround == false))
+        {
+            isPunching = false;
+        }
+       
+
+       //Crouch
+        if(Input.GetButton("Vertical") && (isGround))
+        { 
+           
+
+            isCrouching = true;
+        }  
+        if(Input.GetButtonUp("Vertical") || isGround == false || currentVelocity.x > 0.1 || currentVelocity.x < -0.1)
+        {
+            isCrouching = false;
+        }
+        
+
+
+        //Set animations
         animator.SetFloat("AbsSpeedX", Mathf.Abs(currentVelocity.x));
         animator.SetFloat("SpeedY", currentVelocity.y);
+        animator.SetBool("IsPunching",isPunching);
+        animator.SetBool("IsCrouching",isCrouching);
+        
+        
     }
 
     private void OnDrawGizmosSelected()
