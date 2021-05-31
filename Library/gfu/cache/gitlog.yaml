@@ -13,9 +13,633 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-05-17T18:30:20.212+01:00
-  initializedAtString: 2021-05-17T18:30:20.134+01:00
+  lastUpdatedAtString: 2021-05-18T03:20:28.680+01:00
+  initializedAtString: 2021-05-18T03:20:28.591+01:00
   log:
+  - commitID: b08969c3d299c40d7526dbd2c9c76ccf51097351
+    mergeA: 
+    mergeB: 
+    authorName: PedroJuanTorres
+    authorEmail: 74351644+PedroJuanTorres@users.noreply.github.com
+    commitEmail: 74351644+PedroJuanTorres@users.noreply.github.com
+    commitName: PedroJuanTorres
+    summary: Adding passerbys and their walk animation
+    description: 
+    timeString: 2021-05-18T03:19:11.000+01:00
+    commitTimeString: 2021-05-18T03:19:11.000+01:00
+    changes:
+    - path: Assets/Animations/AngerEnenmy.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/AngerEnenmy.meta
+      projectPath: Assets/Animations/AngerEnenmy.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/AngerEnenmy/AngerEnemy.controller
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/AngerEnenmy/AngerEnemy.controller
+      projectPath: Assets/Animations/AngerEnenmy/AngerEnemy.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/AngerEnenmy/AngerEnemy.controller.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/AngerEnenmy/AngerEnemy.controller.meta
+      projectPath: Assets/Animations/AngerEnenmy/AngerEnemy.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/AngerEnenmy/Walk.anim
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/AngerEnenmy/Walk.anim
+      projectPath: Assets/Animations/AngerEnenmy/Walk.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/AngerEnenmy/Walk.anim.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/AngerEnenmy/Walk.anim.meta
+      projectPath: Assets/Animations/AngerEnenmy/Walk.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/DisgustEnemy.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/DisgustEnemy.meta
+      projectPath: Assets/Animations/DisgustEnemy.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/DisgustEnemy/DisgustEnemy.controller
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/DisgustEnemy/DisgustEnemy.controller
+      projectPath: Assets/Animations/DisgustEnemy/DisgustEnemy.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/DisgustEnemy/DisgustEnemy.controller.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/DisgustEnemy/DisgustEnemy.controller.meta
+      projectPath: Assets/Animations/DisgustEnemy/DisgustEnemy.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/DisgustEnemy/Walk.anim
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/DisgustEnemy/Walk.anim
+      projectPath: Assets/Animations/DisgustEnemy/Walk.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/DisgustEnemy/Walk.anim.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/DisgustEnemy/Walk.anim.meta
+      projectPath: Assets/Animations/DisgustEnemy/Walk.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/FearEnemy.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/FearEnemy.meta
+      projectPath: Assets/Animations/FearEnemy.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/FearEnemy/FearEnemy.controller
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/FearEnemy/FearEnemy.controller
+      projectPath: Assets/Animations/FearEnemy/FearEnemy.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/FearEnemy/FearEnemy.controller.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/FearEnemy/FearEnemy.controller.meta
+      projectPath: Assets/Animations/FearEnemy/FearEnemy.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/FearEnemy/Walk.anim
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/FearEnemy/Walk.anim
+      projectPath: Assets/Animations/FearEnemy/Walk.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/FearEnemy/Walk.anim.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/FearEnemy/Walk.anim.meta
+      projectPath: Assets/Animations/FearEnemy/Walk.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/Player/Crouch.anim
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/Player/Crouch.anim
+      projectPath: Assets/Animations/Player/Crouch.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/Player/Crouch.anim.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/Player/Crouch.anim.meta
+      projectPath: Assets/Animations/Player/Crouch.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/Player/Player.controller
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/Player/Player.controller
+      projectPath: Assets/Animations/Player/Player.controller
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Animations/Player/Punch.anim
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/Player/Punch.anim
+      projectPath: Assets/Animations/Player/Punch.anim
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Animations/SadEnemy.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/SadEnemy.meta
+      projectPath: Assets/Animations/SadEnemy.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/SadEnemy/SadEnemy.controller
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/SadEnemy/SadEnemy.controller
+      projectPath: Assets/Animations/SadEnemy/SadEnemy.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/SadEnemy/SadEnemy.controller.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/SadEnemy/SadEnemy.controller.meta
+      projectPath: Assets/Animations/SadEnemy/SadEnemy.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/SadEnemy/Walk.anim
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/SadEnemy/Walk.anim
+      projectPath: Assets/Animations/SadEnemy/Walk.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Animations/SadEnemy/Walk.anim.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/SadEnemy/Walk.anim.meta
+      projectPath: Assets/Animations/SadEnemy/Walk.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scenes/SampleScene.unity
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scenes/SampleScene.unity
+      projectPath: Assets/Scenes/SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/AngerEnemy.cs
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/AngerEnemy.cs
+      projectPath: Assets/Scripts/AngerEnemy.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/AngerEnemy.cs.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/AngerEnemy.cs.meta
+      projectPath: Assets/Scripts/AngerEnemy.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/CameraMovement.cs
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/CameraMovement.cs
+      projectPath: Assets/Scripts/CameraMovement.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/DisgustEnemy.cs
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/DisgustEnemy.cs
+      projectPath: Assets/Scripts/DisgustEnemy.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/DisgustEnemy.cs.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/DisgustEnemy.cs.meta
+      projectPath: Assets/Scripts/DisgustEnemy.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/FearEnemy.cs
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/FearEnemy.cs
+      projectPath: Assets/Scripts/FearEnemy.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/FearEnemy.cs.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/FearEnemy.cs.meta
+      projectPath: Assets/Scripts/FearEnemy.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/PlayerMovement.cs
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/PlayerMovement.cs
+      projectPath: Assets/Scripts/PlayerMovement.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/Punch.cs
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/Punch.cs
+      projectPath: Assets/Scripts/Punch.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/SadEnemy.cs
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/SadEnemy.cs
+      projectPath: Assets/Scripts/SadEnemy.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/SadEnemy.cs.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/SadEnemy.cs.meta
+      projectPath: Assets/Scripts/SadEnemy.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Sprites/Enemies.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/Enemies.meta
+      projectPath: Assets/Sprites/Enemies.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Sprites/Enemies/angerwalk_spritesheet.png
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/Enemies/angerwalk_spritesheet.png
+      projectPath: Assets/Sprites/Enemies/angerwalk_spritesheet.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Sprites/Enemies/angerwalk_spritesheet.png.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/Enemies/angerwalk_spritesheet.png.meta
+      projectPath: Assets/Sprites/Enemies/angerwalk_spritesheet.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Sprites/Enemies/disgustwalk_spritsheet.png
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/Enemies/disgustwalk_spritsheet.png
+      projectPath: Assets/Sprites/Enemies/disgustwalk_spritsheet.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Sprites/Enemies/disgustwalk_spritsheet.png.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/Enemies/disgustwalk_spritsheet.png.meta
+      projectPath: Assets/Sprites/Enemies/disgustwalk_spritsheet.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Sprites/Enemies/fearwalk_spritesheet.png
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/Enemies/fearwalk_spritesheet.png
+      projectPath: Assets/Sprites/Enemies/fearwalk_spritesheet.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Sprites/Enemies/fearwalk_spritesheet.png.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/Enemies/fearwalk_spritesheet.png.meta
+      projectPath: Assets/Sprites/Enemies/fearwalk_spritesheet.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Sprites/Enemies/sadwalk_spritesheet.png
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/Enemies/sadwalk_spritesheet.png
+      projectPath: Assets/Sprites/Enemies/sadwalk_spritesheet.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Sprites/Enemies/sadwalk_spritesheet.png.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/Enemies/sadwalk_spritesheet.png.meta
+      projectPath: Assets/Sprites/Enemies/sadwalk_spritesheet.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Sprites/MainMenu/Background_MainMenu.png.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/MainMenu/Background_MainMenu.png.meta
+      projectPath: Assets/Sprites/MainMenu/Background_MainMenu.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Sprites/MainMenu/CreditsButton.png.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/MainMenu/CreditsButton.png.meta
+      projectPath: Assets/Sprites/MainMenu/CreditsButton.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Sprites/MainMenu/OptionsButton.png.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/MainMenu/OptionsButton.png.meta
+      projectPath: Assets/Sprites/MainMenu/OptionsButton.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Sprites/MainMenu/QuitButton.png.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/MainMenu/QuitButton.png.meta
+      projectPath: Assets/Sprites/MainMenu/QuitButton.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Sprites/MainMenu/StartButton.png.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/MainMenu/StartButton.png.meta
+      projectPath: Assets/Sprites/MainMenu/StartButton.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Sprites/PauseMenu.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/PauseMenu.meta
+      projectPath: Assets/Sprites/PauseMenu.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Sprites/PauseMenu/Pause.png
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/PauseMenu/Pause.png
+      projectPath: Assets/Sprites/PauseMenu/Pause.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Sprites/PauseMenu/Pause.png.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/PauseMenu/Pause.png.meta
+      projectPath: Assets/Sprites/PauseMenu/Pause.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Sprites/character/crouch_spritesheet.png
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/character/crouch_spritesheet.png
+      projectPath: Assets/Sprites/character/crouch_spritesheet.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Sprites/character/crouch_spritesheet.png.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/character/crouch_spritesheet.png.meta
+      projectPath: Assets/Sprites/character/crouch_spritesheet.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ArtifactDB
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/ArtifactDB
+      projectPath: Library/ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/Artifacts/01/01b076c3dda6e73de2cc89f4f752388d
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/01/01b076c3dda6e73de2cc89f4f752388d
+      projectPath: Library/Artifacts/01/01b076c3dda6e73de2cc89f4f752388d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/14/14efc5cda67b6fd4fef38530461b24ab
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/14/14efc5cda67b6fd4fef38530461b24ab
+      projectPath: Library/Artifacts/14/14efc5cda67b6fd4fef38530461b24ab
+      originalPath: Library/Artifacts/01/0158770bc45deccfead05c8b10d4f655
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library/Artifacts/17/17a5050d5c0f7689a2120538f51f5702
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/17/17a5050d5c0f7689a2120538f51f5702
+      projectPath: Library/Artifacts/17/17a5050d5c0f7689a2120538f51f5702
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/1f/1f8766f665ac378853e0918b5e4068af
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/1f/1f8766f665ac378853e0918b5e4068af
+      projectPath: Library/Artifacts/1f/1f8766f665ac378853e0918b5e4068af
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/28/28c487431f5e70235781444684bf0e6d
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/28/28c487431f5e70235781444684bf0e6d
+      projectPath: Library/Artifacts/28/28c487431f5e70235781444684bf0e6d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/2b/2b16bcebf5e509a55677f9b9aaa501b0
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/2b/2b16bcebf5e509a55677f9b9aaa501b0
+      projectPath: Library/Artifacts/2b/2b16bcebf5e509a55677f9b9aaa501b0
+      originalPath: Library/Artifacts/a7/a73b83086fa4383022a7aa60e899a40b
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library/Artifacts/30/3025792739026744e07dddea9d48640a
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/30/3025792739026744e07dddea9d48640a
+      projectPath: Library/Artifacts/30/3025792739026744e07dddea9d48640a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/38/38da3754bac0c706ee3c7bfc14288fc2
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/38/38da3754bac0c706ee3c7bfc14288fc2
+      projectPath: Library/Artifacts/38/38da3754bac0c706ee3c7bfc14288fc2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/51/51f8ff4e01e65fe6c89a33131c61f15f
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/51/51f8ff4e01e65fe6c89a33131c61f15f
+      projectPath: Library/Artifacts/51/51f8ff4e01e65fe6c89a33131c61f15f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/73/7347c02af5ab0143f1488c8357ec94a5
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/73/7347c02af5ab0143f1488c8357ec94a5
+      projectPath: Library/Artifacts/73/7347c02af5ab0143f1488c8357ec94a5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/73/73c3ddc234f414dcf656a3d3821ba9b4
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/73/73c3ddc234f414dcf656a3d3821ba9b4
+      projectPath: Library/Artifacts/73/73c3ddc234f414dcf656a3d3821ba9b4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/74/741c27d1ee0bc4e0e1c5191aace8855e
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/74/741c27d1ee0bc4e0e1c5191aace8855e
+      projectPath: Library/Artifacts/74/741c27d1ee0bc4e0e1c5191aace8855e
+      originalPath: Library/Artifacts/0d/0d8234aa5e54a2b91d80fcef7bf91a6d
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library/Artifacts/74/7469e748980a9f0c073ea9c3e8fa2a8a
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/74/7469e748980a9f0c073ea9c3e8fa2a8a
+      projectPath: Library/Artifacts/74/7469e748980a9f0c073ea9c3e8fa2a8a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/76/769dd09f5cce9d0a9df212a77a1944ac
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/76/769dd09f5cce9d0a9df212a77a1944ac
+      projectPath: Library/Artifacts/76/769dd09f5cce9d0a9df212a77a1944ac
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/79/795ee17f3c69011ad68d485c93b72336
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/79/795ee17f3c69011ad68d485c93b72336
+      projectPath: Library/Artifacts/79/795ee17f3c69011ad68d485c93b72336
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/8d/8d121b4ce0aeddf11d1f6bcf1d0c937d
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/8d/8d121b4ce0aeddf11d1f6bcf1d0c937d
+      projectPath: Library/Artifacts/8d/8d121b4ce0aeddf11d1f6bcf1d0c937d
+      originalPath: Library/Artifacts/31/31865c7306634d3559819419e70fc3e9
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library/Artifacts/94/94a9d9fbc3b919191e4b185837e17eed
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/94/94a9d9fbc3b919191e4b185837e17eed
+      projectPath: Library/Artifacts/94/94a9d9fbc3b919191e4b185837e17eed
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/96/96eb4fcbdd3416344a8861a7d3cf474c
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/96/96eb4fcbdd3416344a8861a7d3cf474c
+      projectPath: Library/Artifacts/96/96eb4fcbdd3416344a8861a7d3cf474c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/9b/9bc0809c197667a0341ff4e66c8e4bf9
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/9b/9bc0809c197667a0341ff4e66c8e4bf9
+      projectPath: Library/Artifacts/9b/9bc0809c197667a0341ff4e66c8e4bf9
+      originalPath: Library/Artifacts/10/1027c01d43a0cb07646c7d2e4ef72251
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library/Artifacts/9c/9c4e74648cc1c86e281671e5dac68dcd
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/9c/9c4e74648cc1c86e281671e5dac68dcd
+      projectPath: Library/Artifacts/9c/9c4e74648cc1c86e281671e5dac68dcd
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library/Artifacts/9e/9ecb794fca9d8a5f1ee3090567f9a1b9
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/9e/9ecb794fca9d8a5f1ee3090567f9a1b9
+      projectPath: Library/Artifacts/9e/9ecb794fca9d8a5f1ee3090567f9a1b9
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library/Artifacts/bb/bbf857449fae1653e8c670d8d363d7d3
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/bb/bbf857449fae1653e8c670d8d363d7d3
+      projectPath: Library/Artifacts/bb/bbf857449fae1653e8c670d8d363d7d3
+      originalPath: Library/Artifacts/09/09ecb1ac265a90b2ad559f4d508b657e
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library/Artifacts/bd/bdc5b322000c8d4533eb293852c813c2
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/bd/bdc5b322000c8d4533eb293852c813c2
+      projectPath: Library/Artifacts/bd/bdc5b322000c8d4533eb293852c813c2
+      originalPath: Library/Artifacts/5e/5e8db005199732e35e35d8e6a6eef28b
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library/Artifacts/cb/cb7727c59ab61ad8a31238de200d59e1
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/cb/cb7727c59ab61ad8a31238de200d59e1
+      projectPath: Library/Artifacts/cb/cb7727c59ab61ad8a31238de200d59e1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/ee/ee7fc8369ba4ff26a0149b11903c0594
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/ee/ee7fc8369ba4ff26a0149b11903c0594
+      projectPath: Library/Artifacts/ee/ee7fc8369ba4ff26a0149b11903c0594
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/f8/f80574064a11251769ff5e49ce8ee0ab
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/f8/f80574064a11251769ff5e49ce8ee0ab
+      projectPath: Library/Artifacts/f8/f80574064a11251769ff5e49ce8ee0ab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/fb/fb640e92381099364442a724e6b1d905
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/fb/fb640e92381099364442a724e6b1d905
+      projectPath: Library/Artifacts/fb/fb640e92381099364442a724e6b1d905
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/ff/ffb0b5b9a28177d3815806d3d364ae68
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/ff/ffb0b5b9a28177d3815806d3d364ae68
+      projectPath: Library/Artifacts/ff/ffb0b5b9a28177d3815806d3d364ae68
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Collab/Cache/Window.yml
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Collab/Cache/Window.yml
+      projectPath: Library/Collab/Cache/Window.yml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/Collab/CollabSnapshot_61b3c78a-950d-4b08-8a89-5675b4c252ca.txt
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Collab/CollabSnapshot_61b3c78a-950d-4b08-8a89-5675b4c252ca.txt
+      projectPath: Library/Collab/CollabSnapshot_61b3c78a-950d-4b08-8a89-5675b4c252ca.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/CurrentLayout-default.dwlt
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/CurrentLayout-default.dwlt
+      projectPath: Library/CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/EditorInstance.json
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/InspectorExpandedItems.asset
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/InspectorExpandedItems.asset
+      projectPath: Library/InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/LastSceneManagerSetup.txt
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/LastSceneManagerSetup.txt
+      projectPath: Library/LastSceneManagerSetup.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/SceneVisibilityState.asset
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/SceneVisibilityState.asset
+      projectPath: Library/SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/ScriptAssemblies/Assembly-CSharp.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.pdb
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/ScriptAssemblies/Assembly-CSharp.pdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/SourceAssetDB
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/SourceAssetDB
+      projectPath: Library/SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+      projectPath: Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+      projectPath: Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/__Backupscenes/0.backup
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/__Backupscenes/0.backup
+      projectPath: Temp/__Backupscenes/0.backup
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
   - commitID: 4533256805a2e8854e14467b703df61e03fdd927
     mergeA: 
     mergeB: 
