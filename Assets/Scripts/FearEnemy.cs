@@ -77,4 +77,13 @@ public class FearEnemy : MonoBehaviour
 
         animator.SetBool("IsFearMonster",isFearMonster);
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        PlayerMovement player = collision.collider.GetComponent<PlayerMovement>();
+        if(player != null)
+        {
+            player.TakeDamage(1);
+        } 
+    }
 }

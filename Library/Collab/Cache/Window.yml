@@ -14,35 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Animations/AngerEnenmy/AngerEnemy.controller
-    - Assets/Animations/AngerEnenmy/AngerMonsterWalk.anim
-    - Assets/Animations/AngerEnenmy/AngerMonsterWalk.anim.meta
-    - Assets/Animations/Player/Player.controller
-    - Assets/Scenes/SampleScene.unity
     - Assets/Scripts/AngerEnemy.cs
     - Assets/Scripts/DisgustEnemy.cs
     - Assets/Scripts/FearEnemy.cs
     - Assets/Scripts/GameManager.cs
-    - Assets/Scripts/GameManager.cs.meta
     - Assets/Scripts/PlayerMovement.cs
     - Assets/Scripts/SadEnemy.cs
-    - Assets/Sprites/Enemies/AngerMonsterAttackSprite.png
-    - Assets/Sprites/Enemies/AngerMonsterAttackSprite.png.meta
-    - Assets/Sprites/Enemies/AngerMonsterWalkSprite.png
-    - Assets/Sprites/Enemies/AngerMonsterWalkSprite.png.meta
-    - Assets/Sprites/Enemies/DisgustMonsterAttackingSprite.png
-    - Assets/Sprites/Enemies/DisgustMonsterAttackingSprite.png.meta
-    - Assets/Sprites/Enemies/DisgustMonsterGosmaSprite.png
-    - Assets/Sprites/Enemies/DisgustMonsterGosmaSprite.png.meta
-    - Assets/Sprites/Enemies/DisgustMonsterWalkSprite.png
-    - Assets/Sprites/Enemies/DisgustMonsterWalkSprite.png.meta
-    - Assets/Sprites/Enemies/FearMonsterWalkSprite.png
-    - Assets/Sprites/Enemies/FearMonsterWalkSprite.png.meta
-    - Assets/Sprites/Enemies/SadMonsterWalkSprite.png
-    - Assets/Sprites/Enemies/SadMonsterWalkSprite.png.meta
-    - ProjectSettings/TagManager.asset
     - 
-    m_Values: 00000000000000000000000000000000000000000000000000000000
+    m_Values: 00000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

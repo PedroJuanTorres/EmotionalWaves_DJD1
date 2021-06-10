@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b5ac43d28c3b46f6a73070ef4e04b76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secondsBetweenSwitch: 5
+  secondsBetweenSwitch: 2
 --- !u!4 &217039894
 Transform:
   m_ObjectHideFlags: 0
@@ -1349,7 +1349,7 @@ GameObject:
   - component: {fileID: 840984625}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

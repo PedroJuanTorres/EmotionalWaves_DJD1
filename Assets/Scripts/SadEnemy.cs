@@ -78,5 +78,14 @@ public class SadEnemy : MonoBehaviour
 
         animator.SetBool("IsSadMonster",isSadMonster);
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        PlayerMovement player = collision.collider.GetComponent<PlayerMovement>();
+        if(player != null)
+        {
+            player.TakeDamage(1);
+        } 
+    }
 }
 

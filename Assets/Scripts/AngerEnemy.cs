@@ -4,14 +4,10 @@ using UnityEngine;
 
 public class AngerEnemy : MonoBehaviour
 {
-    [SerializeField]
-    private float moveDirection = -1.0f;
-    [SerializeField]
-    private float moveSpeed = 100.0f;
-    [SerializeField]
-    private float maxTimeMoving = 2.2f;
-    [SerializeField]
-    private Collider2D collider;
+    [SerializeField]private float moveDirection = -1.0f;
+    [SerializeField]private float moveSpeed = 100.0f;
+    [SerializeField]private float maxTimeMoving = 2.2f;
+    [SerializeField]private Collider2D collider;
 
     private Rigidbody2D rb;
     private GameManager gm;
@@ -76,5 +72,14 @@ public class AngerEnemy : MonoBehaviour
             collider.enabled = false;
         }
         animator.SetBool("IsAngerMonster",isAngerMonster);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        PlayerMovement player = collision.collider.GetComponent<PlayerMovement>();
+        if(player != null)
+        {
+            player.TakeDamage(1);
+        } 
     }
 }

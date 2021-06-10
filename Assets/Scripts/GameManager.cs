@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField]
     private float secondsBetweenSwitch = 45;
-    private float elapsedTimeSinceSwitch ;
+    private float elapsedTimeSinceSwitch;
     private int emotionState = 0;
 
     // Start is called before the first frame update
