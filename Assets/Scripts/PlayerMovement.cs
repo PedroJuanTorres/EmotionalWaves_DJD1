@@ -10,12 +10,17 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]private float       moveSpeed = 10.0f;
     [SerializeField]private float       jumpSpeed = 100.0f;
     [SerializeField]private float       maxJumpTime = 0.1f;
+    [SerializeField]private Collider2D  groundCollider;
+    [SerializeField]private Collider2D  airCollider;
+    [SerializeField]private Collider2D  punchCollider;
     [SerializeField]private int         jumpGravityStart = 1;
     [SerializeField]private Transform   groundCheckObject;
     [SerializeField]private float       groundCheckRadius = 3.0f;
     [SerializeField]private LayerMask   groundCheckLayer;
     [SerializeField]private float       invulnerabilityDuration = 2.0f;
     [SerializeField]private float       blinkDuration = 0.1f;
+    [SerializeField]private float       knockbackVelocity = 400.0f;
+    [SerializeField]private float       knockbackDuration = 0.25f;
 
     //Variables
     private float           hAxis;
@@ -30,6 +35,12 @@ public class PlayerMovement : MonoBehaviour
     private int             health;
     private float           invulnerabilityTimer = 0;
     private float           blinkTimer;
+    private float           knockbackTimer;
+
+    private bool    isDead          { get {return health <= 0;}}
+    private bool    isInvulnerable  { get {return invulnerabilityTimer > 0;}}
+    private bool    canHit          { get {return (!isInvulnerable) && (!isDead);}}
+    private bool    canMove         { get {return (knockbackTimer <= 0) && (!isDead);}}
 
     // Function that runs when the game start.( Most of the code here is to get components)
     void Start()
@@ -48,7 +59,10 @@ public class PlayerMovement : MonoBehaviour
     // Function that runs every frame, before the update
     void FixedUpdate()
     {
-        rb.velocity = new Vector2(hAxis * moveSpeed, rb.velocity.y);
+        if(canMove)
+        {
+            rb.velocity = new Vector2(hAxis * moveSpeed, rb.velocity.y);
+        }  
     }
 
 
@@ -104,12 +118,14 @@ public class PlayerMovement : MonoBehaviour
         //Punch
         if(Input.GetButton("Fire3") && (isGround))
         { 
-           //punchCollider.enabled = True
+           punchCollider.enabled = true;
 
             isPunching = true;
         }  
         if(Input.GetButtonUp("Fire3") || (isGround == false))
         {
+            punchCollider.enabled = false;
+
             isPunching = false;
         }
        
@@ -134,6 +150,8 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("IsPunching",isPunching);
         animator.SetBool("IsCrouching",isCrouching);
         
+        groundCollider.enabled = isGround;
+        airCollider.enabled = !isGround;
 
 
         if (invulnerabilityTimer > 0 )
@@ -151,6 +169,11 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             spriteRenderer.enabled = true;
+        }
+
+        if (knockbackTimer > 0)
+        {
+            knockbackTimer = knockbackTimer - Time.deltaTime;
         }
         
 
@@ -182,11 +205,11 @@ public class PlayerMovement : MonoBehaviour
 
 
     // Function to make the player take damage
-    public void TakeDamage(int damage)
+    public void TakeDamage(int damage, Vector2 hitDirection)
     {
 
-        if (invulnerabilityTimer > 0) return;
-        if (health <= 0) return;
+        if(!canHit) return;
+
 
         health = health - damage;
 
@@ -202,7 +225,18 @@ public class PlayerMovement : MonoBehaviour
         {
             invulnerabilityTimer = invulnerabilityDuration;
             blinkTimer = blinkDuration;
+
+            Vector2 knockback = hitDirection.normalized * knockbackVelocity + Vector2.up * knockbackVelocity;
+
+            rb.velocity = knockback;
+
+            knockbackTimer = knockbackDuration;
         }
+    }
+
+    public int GetHealth()
+    {
+        return health;
     }
 
 

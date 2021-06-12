@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField]
-    private float secondsBetweenSwitch = 45;
-    private float elapsedTimeSinceSwitch;
+    [SerializeField]private float secondsBetweenSwitch = 45;
+
+    private float elapsedTimeSinceSwitch = 15;
     private int emotionState = 0;
 
     // Start is called before the first frame update
@@ -19,7 +19,10 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         elapsedTimeSinceSwitch += Time.deltaTime;
-
+        if(elapsedTimeSinceSwitch > secondsBetweenSwitch - 3.0f)
+        {
+            emotionState = 5;
+        }
         if(elapsedTimeSinceSwitch > secondsBetweenSwitch)
         {
             elapsedTimeSinceSwitch = 0;

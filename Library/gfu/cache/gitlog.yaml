@@ -13,9 +13,717 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-05-31T10:09:26.033+01:00
-  initializedAtString: 2021-05-31T10:09:25.962+01:00
+  lastUpdatedAtString: 2021-06-10T15:48:39.153+01:00
+  initializedAtString: 2021-06-10T15:48:39.066+01:00
   log:
+  - commitID: d280f6ee2c958b0c5674631f4feb80cc333b2ffb
+    mergeA: 
+    mergeB: 
+    authorName: PedroJuanTorres
+    authorEmail: 74351644+PedroJuanTorres@users.noreply.github.com
+    commitEmail: 74351644+PedroJuanTorres@users.noreply.github.com
+    commitName: PedroJuanTorres
+    summary: Adding player taking damage from anemies
+    description: 
+    timeString: 2021-06-10T15:48:25.000+01:00
+    commitTimeString: 2021-06-10T15:48:25.000+01:00
+    changes:
+    - path: Assets/Scenes/SampleScene.unity
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scenes/SampleScene.unity
+      projectPath: Assets/Scenes/SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/AngerEnemy.cs
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/AngerEnemy.cs
+      projectPath: Assets/Scripts/AngerEnemy.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/DisgustEnemy.cs
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/DisgustEnemy.cs
+      projectPath: Assets/Scripts/DisgustEnemy.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/FearEnemy.cs
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/FearEnemy.cs
+      projectPath: Assets/Scripts/FearEnemy.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/GameManager.cs
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/GameManager.cs
+      projectPath: Assets/Scripts/GameManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/PlayerMovement.cs
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/PlayerMovement.cs
+      projectPath: Assets/Scripts/PlayerMovement.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/SadEnemy.cs
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/SadEnemy.cs
+      projectPath: Assets/Scripts/SadEnemy.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/ArtifactDB
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/ArtifactDB
+      projectPath: Library/ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/Artifacts/0c/0cf1437e49926173b4e2f4698352dda3
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/0c/0cf1437e49926173b4e2f4698352dda3
+      projectPath: Library/Artifacts/0c/0cf1437e49926173b4e2f4698352dda3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/2a/2a2e4c338e839f721926feee95c5955c
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/2a/2a2e4c338e839f721926feee95c5955c
+      projectPath: Library/Artifacts/2a/2a2e4c338e839f721926feee95c5955c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/3f/3fa1048b396dad98ef566b5562811065
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/3f/3fa1048b396dad98ef566b5562811065
+      projectPath: Library/Artifacts/3f/3fa1048b396dad98ef566b5562811065
+      originalPath: Library/Artifacts/e8/e8f0ce15972b616e8dc0d47e5541dcf5
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library/Artifacts/47/47e288e7da94f59260c49205dc241ca8
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/47/47e288e7da94f59260c49205dc241ca8
+      projectPath: Library/Artifacts/47/47e288e7da94f59260c49205dc241ca8
+      originalPath: Library/Artifacts/f2/f2247a0ba4770775104a937a256cce15
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library/Artifacts/5c/5c0704ac49a443cc137c77e8d49783ed
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/5c/5c0704ac49a443cc137c77e8d49783ed
+      projectPath: Library/Artifacts/5c/5c0704ac49a443cc137c77e8d49783ed
+      originalPath: Library/Artifacts/b9/b97955a74ac2a716e1088e3ff6863c83
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library/Artifacts/6a/6ad0c9845a4e7f7cf1a8334797fb70ec
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/6a/6ad0c9845a4e7f7cf1a8334797fb70ec
+      projectPath: Library/Artifacts/6a/6ad0c9845a4e7f7cf1a8334797fb70ec
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library/Artifacts/6c/6c38c3403aa1a29cc607ff4ddd6f15c6
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/6c/6c38c3403aa1a29cc607ff4ddd6f15c6
+      projectPath: Library/Artifacts/6c/6c38c3403aa1a29cc607ff4ddd6f15c6
+      originalPath: Library/Artifacts/45/452e7b2126c8d75a1ec0aad7d8c7fafe
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library/Artifacts/97/978bb45ed8fa14430675dcaf73ba9fbe
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/97/978bb45ed8fa14430675dcaf73ba9fbe
+      projectPath: Library/Artifacts/97/978bb45ed8fa14430675dcaf73ba9fbe
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library/Artifacts/be/be0c84e5429c28d1d13accba0a0a6f95
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/be/be0c84e5429c28d1d13accba0a0a6f95
+      projectPath: Library/Artifacts/be/be0c84e5429c28d1d13accba0a0a6f95
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/c0/c0b7866758572f413bbc9682769169b5
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/c0/c0b7866758572f413bbc9682769169b5
+      projectPath: Library/Artifacts/c0/c0b7866758572f413bbc9682769169b5
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library/Artifacts/c9/c97576729bd32f0cbfb3ee463b81b0ea
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/c9/c97576729bd32f0cbfb3ee463b81b0ea
+      projectPath: Library/Artifacts/c9/c97576729bd32f0cbfb3ee463b81b0ea
+      originalPath: Library/Artifacts/19/1956762204d472a3e74551f0e5575bdd
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library/Artifacts/dd/dd55d6ffc47c0a08683c73b12d7efcf1
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/dd/dd55d6ffc47c0a08683c73b12d7efcf1
+      projectPath: Library/Artifacts/dd/dd55d6ffc47c0a08683c73b12d7efcf1
+      originalPath: Library/Artifacts/1a/1a79c3b680c28628c704b2713e0bcc9e
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library/Artifacts/eb/eb8509706a99d3078c1fc40785bd102f
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/eb/eb8509706a99d3078c1fc40785bd102f
+      projectPath: Library/Artifacts/eb/eb8509706a99d3078c1fc40785bd102f
+      originalPath: Library/Artifacts/ae/ae06088053822c57a818e7caeeed250f
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library/Artifacts/ec/eca53345ed259d604ac073fb96caaa4e
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/ec/eca53345ed259d604ac073fb96caaa4e
+      projectPath: Library/Artifacts/ec/eca53345ed259d604ac073fb96caaa4e
+      originalPath: Library/Artifacts/90/901ea2c9ad95660d856e88be011abd2a
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library/Collab/Cache/Window.yml
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Collab/Cache/Window.yml
+      projectPath: Library/Collab/Cache/Window.yml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/Collab/CollabSnapshot_61b3c78a-950d-4b08-8a89-5675b4c252ca.txt
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Collab/CollabSnapshot_61b3c78a-950d-4b08-8a89-5675b4c252ca.txt
+      projectPath: Library/Collab/CollabSnapshot_61b3c78a-950d-4b08-8a89-5675b4c252ca.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/CurrentLayout-default.dwlt
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/CurrentLayout-default.dwlt
+      projectPath: Library/CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/EditorInstance.json
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/InspectorExpandedItems.asset
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/InspectorExpandedItems.asset
+      projectPath: Library/InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/SceneVisibilityState.asset
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/SceneVisibilityState.asset
+      projectPath: Library/SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/ScriptAssemblies/Assembly-CSharp.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.pdb
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/ScriptAssemblies/Assembly-CSharp.pdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/SourceAssetDB
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/SourceAssetDB
+      projectPath: Library/SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+      projectPath: Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+      projectPath: Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/expandedItems
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/expandedItems
+      projectPath: Library/expandedItems
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-05b14a738236e40e8b589efb7e67da41
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-05b14a738236e40e8b589efb7e67da41
+      projectPath: Temp/UnityTempFile-05b14a738236e40e8b589efb7e67da41
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-0c975f0840312493bbcd35740c73bd9e
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-0c975f0840312493bbcd35740c73bd9e
+      projectPath: Temp/UnityTempFile-0c975f0840312493bbcd35740c73bd9e
+      originalPath: Temp/UnityTempFile-659f7dc1a738c4fa2bbebc133bff09e3
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-1a5761ee8e7144cdbb9442505517141f
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-1a5761ee8e7144cdbb9442505517141f
+      projectPath: Temp/UnityTempFile-1a5761ee8e7144cdbb9442505517141f
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-1b44b381befc84137977b5f2fdac27e1
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-1b44b381befc84137977b5f2fdac27e1
+      projectPath: Temp/UnityTempFile-1b44b381befc84137977b5f2fdac27e1
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-1b985031af50e4d8b97b072fa094068c
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-1b985031af50e4d8b97b072fa094068c
+      projectPath: Temp/UnityTempFile-1b985031af50e4d8b97b072fa094068c
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-2b08d3656c2814e1f98fadc86559d15c
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-2b08d3656c2814e1f98fadc86559d15c
+      projectPath: Temp/UnityTempFile-2b08d3656c2814e1f98fadc86559d15c
+      originalPath: Temp/UnityTempFile-7a33e0824cc50423c81e61f30a7531b3
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-2cb48818d57664bf889a27e75053d78d
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-2cb48818d57664bf889a27e75053d78d
+      projectPath: Temp/UnityTempFile-2cb48818d57664bf889a27e75053d78d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-4f3c9d11fc24b48ec9a32e5ccb881e87
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-4f3c9d11fc24b48ec9a32e5ccb881e87
+      projectPath: Temp/UnityTempFile-4f3c9d11fc24b48ec9a32e5ccb881e87
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-67e168d583feb44e88d836e38ed098a6
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-67e168d583feb44e88d836e38ed098a6
+      projectPath: Temp/UnityTempFile-67e168d583feb44e88d836e38ed098a6
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-682f97eeea7b94d098fba96c773c589f
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-682f97eeea7b94d098fba96c773c589f
+      projectPath: Temp/UnityTempFile-682f97eeea7b94d098fba96c773c589f
+      originalPath: Temp/UnityTempFile-849184cb081274ee5983d9831ca1cd9e
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-6b9bc7d89036241eb82d3466a615adef
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-6b9bc7d89036241eb82d3466a615adef
+      projectPath: Temp/UnityTempFile-6b9bc7d89036241eb82d3466a615adef
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-6e831a47d1003476985ad200347e74b0
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-6e831a47d1003476985ad200347e74b0
+      projectPath: Temp/UnityTempFile-6e831a47d1003476985ad200347e74b0
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-7084e2d68235c4349ab5bb57d9780bda
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-7084e2d68235c4349ab5bb57d9780bda
+      projectPath: Temp/UnityTempFile-7084e2d68235c4349ab5bb57d9780bda
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-73fa81e51e5ea4da2a4427102c547bfd
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-73fa81e51e5ea4da2a4427102c547bfd
+      projectPath: Temp/UnityTempFile-73fa81e51e5ea4da2a4427102c547bfd
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-777488552e6ed4386b657aadc7f26906
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-777488552e6ed4386b657aadc7f26906
+      projectPath: Temp/UnityTempFile-777488552e6ed4386b657aadc7f26906
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-7b2b21f86c55d490b995dd5ab3346aca
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-7b2b21f86c55d490b995dd5ab3346aca
+      projectPath: Temp/UnityTempFile-7b2b21f86c55d490b995dd5ab3346aca
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-7d925046c3d3a4a4d96d24b51c8ff2b7
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-7d925046c3d3a4a4d96d24b51c8ff2b7
+      projectPath: Temp/UnityTempFile-7d925046c3d3a4a4d96d24b51c8ff2b7
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-889cfad48dc3443f8b2ecfd4adc67ea8
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-889cfad48dc3443f8b2ecfd4adc67ea8
+      projectPath: Temp/UnityTempFile-889cfad48dc3443f8b2ecfd4adc67ea8
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-89d19cc679dc547b99c56ddc0c063ef4
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-89d19cc679dc547b99c56ddc0c063ef4
+      projectPath: Temp/UnityTempFile-89d19cc679dc547b99c56ddc0c063ef4
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-8c3e2d93e6d4b468d9d22fbee92a180d
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-8c3e2d93e6d4b468d9d22fbee92a180d
+      projectPath: Temp/UnityTempFile-8c3e2d93e6d4b468d9d22fbee92a180d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-91ea5e67c83ba444db2781310b587387
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-91ea5e67c83ba444db2781310b587387
+      projectPath: Temp/UnityTempFile-91ea5e67c83ba444db2781310b587387
+      originalPath: Temp/UnityTempFile-920b85bc36d184af386187b69b0aa982
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-9de6828bd136d4340b2216f06196dc21
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-9de6828bd136d4340b2216f06196dc21
+      projectPath: Temp/UnityTempFile-9de6828bd136d4340b2216f06196dc21
+      originalPath: Temp/UnityTempFile-dcbc6d6d05b274919a70bd70f6938108
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-ad20a67ee576f4a6b901b62b15cc1281
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-ad20a67ee576f4a6b901b62b15cc1281
+      projectPath: Temp/UnityTempFile-ad20a67ee576f4a6b901b62b15cc1281
+      originalPath: Temp/UnityTempFile-f2c25f6813bf54e37a424468ccf6ee77
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-af14ab9a90d784993949d81425abcbf7
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-af14ab9a90d784993949d81425abcbf7
+      projectPath: Temp/UnityTempFile-af14ab9a90d784993949d81425abcbf7
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-b4408168125d1478baa65c46cdf9426f
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-b4408168125d1478baa65c46cdf9426f
+      projectPath: Temp/UnityTempFile-b4408168125d1478baa65c46cdf9426f
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-b78cb05ac1be0411383af79908087cce
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-b78cb05ac1be0411383af79908087cce
+      projectPath: Temp/UnityTempFile-b78cb05ac1be0411383af79908087cce
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-b851c1d321470485aa5e1512632aec6f
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-b851c1d321470485aa5e1512632aec6f
+      projectPath: Temp/UnityTempFile-b851c1d321470485aa5e1512632aec6f
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-bbfd70bba32bd465a8c7bf8808783105
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-bbfd70bba32bd465a8c7bf8808783105
+      projectPath: Temp/UnityTempFile-bbfd70bba32bd465a8c7bf8808783105
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-c5f4ba451092c400bb37ac426753af20
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-c5f4ba451092c400bb37ac426753af20
+      projectPath: Temp/UnityTempFile-c5f4ba451092c400bb37ac426753af20
+      originalPath: Temp/UnityTempFile-f91cc3792f7ea496eb664f0de91cb343
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-c9f1f3cbf287a42048b37580397356d6
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-c9f1f3cbf287a42048b37580397356d6
+      projectPath: Temp/UnityTempFile-c9f1f3cbf287a42048b37580397356d6
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-ca16ccf87d9754a08b7048cc9c366055
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-ca16ccf87d9754a08b7048cc9c366055
+      projectPath: Temp/UnityTempFile-ca16ccf87d9754a08b7048cc9c366055
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-cc739d6ab290d4e789fee95c88897e6a
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-cc739d6ab290d4e789fee95c88897e6a
+      projectPath: Temp/UnityTempFile-cc739d6ab290d4e789fee95c88897e6a
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-d04226c8668ba4f64abe21f463f83422
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-d04226c8668ba4f64abe21f463f83422
+      projectPath: Temp/UnityTempFile-d04226c8668ba4f64abe21f463f83422
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-d74dc2dbcc0264fedb8d1ee68380c061
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-d74dc2dbcc0264fedb8d1ee68380c061
+      projectPath: Temp/UnityTempFile-d74dc2dbcc0264fedb8d1ee68380c061
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-dbd7240e3704c469c9cbb1939163a821
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-dbd7240e3704c469c9cbb1939163a821
+      projectPath: Temp/UnityTempFile-dbd7240e3704c469c9cbb1939163a821
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-dfa9114ddf06a48afaccbfdbbab7be4e
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-dfa9114ddf06a48afaccbfdbbab7be4e
+      projectPath: Temp/UnityTempFile-dfa9114ddf06a48afaccbfdbbab7be4e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-e572d37104e8949efa1d107773c9d331
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-e572d37104e8949efa1d107773c9d331
+      projectPath: Temp/UnityTempFile-e572d37104e8949efa1d107773c9d331
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-ed71f4d9ef03442838b4030d223ca3d0
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-ed71f4d9ef03442838b4030d223ca3d0
+      projectPath: Temp/UnityTempFile-ed71f4d9ef03442838b4030d223ca3d0
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-f81ad48f92fde45f587887eaf6d7b25e
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-f81ad48f92fde45f587887eaf6d7b25e
+      projectPath: Temp/UnityTempFile-f81ad48f92fde45f587887eaf6d7b25e
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Animations/AngerEnenmy/AngerEnemy.controller
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Animations/AngerEnenmy/AngerEnemy.controller
+      projectPath: Temp/Upload/Assets/Animations/AngerEnenmy/AngerEnemy.controller
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Animations/AngerEnenmy/AngerMonsterWalk.anim
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Animations/AngerEnenmy/AngerMonsterWalk.anim
+      projectPath: Temp/Upload/Assets/Animations/AngerEnenmy/AngerMonsterWalk.anim
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Animations/AngerEnenmy/AngerMonsterWalk.anim.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Animations/AngerEnenmy/AngerMonsterWalk.anim.meta
+      projectPath: Temp/Upload/Assets/Animations/AngerEnenmy/AngerMonsterWalk.anim.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Animations/DisgustEnemy/DisgustEnemy.controller
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Animations/DisgustEnemy/DisgustEnemy.controller
+      projectPath: Temp/Upload/Assets/Animations/DisgustEnemy/DisgustEnemy.controller
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Animations/DisgustEnemy/DisgustMonsterWalk.anim
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Animations/DisgustEnemy/DisgustMonsterWalk.anim
+      projectPath: Temp/Upload/Assets/Animations/DisgustEnemy/DisgustMonsterWalk.anim
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Animations/DisgustEnemy/DisgustMonsterWalk.anim.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Animations/DisgustEnemy/DisgustMonsterWalk.anim.meta
+      projectPath: Temp/Upload/Assets/Animations/DisgustEnemy/DisgustMonsterWalk.anim.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Animations/FearEnemy/FearEnemy.controller
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Animations/FearEnemy/FearEnemy.controller
+      projectPath: Temp/Upload/Assets/Animations/FearEnemy/FearEnemy.controller
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Animations/FearEnemy/FearMonsterWalk.anim
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Animations/FearEnemy/FearMonsterWalk.anim
+      projectPath: Temp/Upload/Assets/Animations/FearEnemy/FearMonsterWalk.anim
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Animations/FearEnemy/FearMonsterWalk.anim.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Animations/FearEnemy/FearMonsterWalk.anim.meta
+      projectPath: Temp/Upload/Assets/Animations/FearEnemy/FearMonsterWalk.anim.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Animations/Player/Player.controller
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Animations/Player/Player.controller
+      projectPath: Temp/Upload/Assets/Animations/Player/Player.controller
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Animations/SadEnemy/SadEnemy.controller
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Animations/SadEnemy/SadEnemy.controller
+      projectPath: Temp/Upload/Assets/Animations/SadEnemy/SadEnemy.controller
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Animations/SadEnemy/SadMonsterWalk.anim
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Animations/SadEnemy/SadMonsterWalk.anim
+      projectPath: Temp/Upload/Assets/Animations/SadEnemy/SadMonsterWalk.anim
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Animations/SadEnemy/SadMonsterWalk.anim.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Animations/SadEnemy/SadMonsterWalk.anim.meta
+      projectPath: Temp/Upload/Assets/Animations/SadEnemy/SadMonsterWalk.anim.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Scenes/SampleScene.unity
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Scenes/SampleScene.unity
+      projectPath: Temp/Upload/Assets/Scenes/SampleScene.unity
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Scripts/AngerEnemy.cs
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Scripts/AngerEnemy.cs
+      projectPath: Temp/Upload/Assets/Scripts/AngerEnemy.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Scripts/DisgustEnemy.cs
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Scripts/DisgustEnemy.cs
+      projectPath: Temp/Upload/Assets/Scripts/DisgustEnemy.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Scripts/FearEnemy.cs
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Scripts/FearEnemy.cs
+      projectPath: Temp/Upload/Assets/Scripts/FearEnemy.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Scripts/GameManager.cs
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Scripts/GameManager.cs
+      projectPath: Temp/Upload/Assets/Scripts/GameManager.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Scripts/GameManager.cs.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Scripts/GameManager.cs.meta
+      projectPath: Temp/Upload/Assets/Scripts/GameManager.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Scripts/PlayerMovement.cs
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Scripts/PlayerMovement.cs
+      projectPath: Temp/Upload/Assets/Scripts/PlayerMovement.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Scripts/SadEnemy.cs
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Scripts/SadEnemy.cs
+      projectPath: Temp/Upload/Assets/Scripts/SadEnemy.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Sprites/Enemies/AngerMonsterAttackSprite.png
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Sprites/Enemies/AngerMonsterAttackSprite.png
+      projectPath: Temp/Upload/Assets/Sprites/Enemies/AngerMonsterAttackSprite.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Sprites/Enemies/AngerMonsterAttackSprite.png.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Sprites/Enemies/AngerMonsterAttackSprite.png.meta
+      projectPath: Temp/Upload/Assets/Sprites/Enemies/AngerMonsterAttackSprite.png.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Sprites/Enemies/AngerMonsterWalkSprite.png
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Sprites/Enemies/AngerMonsterWalkSprite.png
+      projectPath: Temp/Upload/Assets/Sprites/Enemies/AngerMonsterWalkSprite.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Sprites/Enemies/AngerMonsterWalkSprite.png.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Sprites/Enemies/AngerMonsterWalkSprite.png.meta
+      projectPath: Temp/Upload/Assets/Sprites/Enemies/AngerMonsterWalkSprite.png.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Sprites/Enemies/DisgustMonsterAttackingSprite.png
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Sprites/Enemies/DisgustMonsterAttackingSprite.png
+      projectPath: Temp/Upload/Assets/Sprites/Enemies/DisgustMonsterAttackingSprite.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Sprites/Enemies/DisgustMonsterAttackingSprite.png.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Sprites/Enemies/DisgustMonsterAttackingSprite.png.meta
+      projectPath: Temp/Upload/Assets/Sprites/Enemies/DisgustMonsterAttackingSprite.png.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Sprites/Enemies/DisgustMonsterGosmaSprite.png
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Sprites/Enemies/DisgustMonsterGosmaSprite.png
+      projectPath: Temp/Upload/Assets/Sprites/Enemies/DisgustMonsterGosmaSprite.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Sprites/Enemies/DisgustMonsterGosmaSprite.png.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Sprites/Enemies/DisgustMonsterGosmaSprite.png.meta
+      projectPath: Temp/Upload/Assets/Sprites/Enemies/DisgustMonsterGosmaSprite.png.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Sprites/Enemies/DisgustMonsterWalkSprite.png
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Sprites/Enemies/DisgustMonsterWalkSprite.png
+      projectPath: Temp/Upload/Assets/Sprites/Enemies/DisgustMonsterWalkSprite.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Sprites/Enemies/DisgustMonsterWalkSprite.png.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Sprites/Enemies/DisgustMonsterWalkSprite.png.meta
+      projectPath: Temp/Upload/Assets/Sprites/Enemies/DisgustMonsterWalkSprite.png.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Sprites/Enemies/FearMonsterWalkSprite.png
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Sprites/Enemies/FearMonsterWalkSprite.png
+      projectPath: Temp/Upload/Assets/Sprites/Enemies/FearMonsterWalkSprite.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Sprites/Enemies/FearMonsterWalkSprite.png.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Sprites/Enemies/FearMonsterWalkSprite.png.meta
+      projectPath: Temp/Upload/Assets/Sprites/Enemies/FearMonsterWalkSprite.png.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Sprites/Enemies/SadMonsterWalkSprite.png
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Sprites/Enemies/SadMonsterWalkSprite.png
+      projectPath: Temp/Upload/Assets/Sprites/Enemies/SadMonsterWalkSprite.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/Assets/Sprites/Enemies/SadMonsterWalkSprite.png.meta
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Sprites/Enemies/SadMonsterWalkSprite.png.meta
+      projectPath: Temp/Upload/Assets/Sprites/Enemies/SadMonsterWalkSprite.png.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/ProjectSettings/Physics2DSettings.asset
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/ProjectSettings/Physics2DSettings.asset
+      projectPath: Temp/Upload/ProjectSettings/Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/Upload/ProjectSettings/TagManager.asset
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/ProjectSettings/TagManager.asset
+      projectPath: Temp/Upload/ProjectSettings/TagManager.asset
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/__Backupscenes/0.backup
+      fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/__Backupscenes/0.backup
+      projectPath: Temp/__Backupscenes/0.backup
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 7134e67c9e2cdf1b30e18e2b3d2b4c79e80ed2c5
     mergeA: 
     mergeB: 
