@@ -70,7 +70,7 @@ public class AngerEnemy : MonoBehaviour
         if(playerInRange && isAngerMonster)
         {
             timeLeftAttacking = timeLeftAttacking - Time.deltaTime;
-            if(timeLeftAttacking < 0.3) 
+            if(timeLeftAttacking < 0.6) 
             {
                 punchCollider.enabled = true;
             } 
@@ -150,7 +150,7 @@ public class AngerEnemy : MonoBehaviour
         {
             Vector2 hitDirection = player.transform.position - transform.position;
 
-            player.TakeDamage(1, hitDirection);
+            player.TakeDamage(2, hitDirection);
         } 
 
         if(collision.collider.tag == "Punch")

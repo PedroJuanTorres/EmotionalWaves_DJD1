@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
         {
             switchSound.Play();
             elapsedTimeSinceSwitch = 0;
-            emotionState = Random.Range(1,5);
+            emotionState = Random.Range(1,2);
         }
     }
 

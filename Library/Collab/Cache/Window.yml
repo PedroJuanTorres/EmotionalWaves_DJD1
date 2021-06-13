@@ -14,10 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Animations/FearEnemy/Walk.anim
+    - Assets/Animations/SadEnemy/SadEnemy.controller
+    - Assets/Animations/SadEnemy/SadMonsterAttack.anim
+    - Assets/Animations/SadEnemy/SadMonsterAttack.anim.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scripts/AngerEnemy.cs
+    - Assets/Scripts/DisgustEnemy.cs
+    - Assets/Scripts/GameManager.cs
+    - Assets/Sprites/Enemies/SadMonsterAttackSprite.png
+    - Assets/Sprites/Enemies/SadMonsterAttackSprite.png.meta
     - 
-    m_Values: 01
+    m_Values: 0000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
-  TabIndex: 1
+  TabIndex: 0

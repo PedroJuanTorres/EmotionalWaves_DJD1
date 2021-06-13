@@ -75,28 +75,6 @@ public class DisgustEnemy : MonoBehaviour
         {
 
             timeLeftAttacking = timeLeftAttacking - Time.deltaTime;
-            if(timeLeftAttacking < 3) 
-            {
-                attackSprite.enabled = true;
-
-                attackCollider.enabled = true;
-
-                Vector2 attackVelocity = attackRigidbody.velocity;
-
-                attackVelocity.x = moveDirection * moveSpeed;
-
-                attackRigidbody.velocity = attackVelocity;
-            } 
-            else
-            {
-                Vector3 positionOfStartAttack = attackPosition.position;
-
-                positionOfStartAttack.x = 0;
-
-                positionOfStartAttack.y = 0;
-
-                attackPosition.position = positionOfStartAttack;
-            }
             if(timeLeftAttacking < 0)
             {
                 animator.SetBool("IsAttacking",false);
@@ -107,16 +85,12 @@ public class DisgustEnemy : MonoBehaviour
 
                 timeLeftAttacking = timeOfAttack;
 
-                attackCollider.enabled = false;
+            }
+            else if(timeLeftAttacking < 2) 
+            {
+                currentVelocity.x = moveSpeed * 2.0f * moveDirection;
 
-                attackSprite.enabled = false;
-
-                Vector2 attackVelocity = attackRigidbody.velocity;
-
-                attackVelocity.x = 0;
-
-                attackRigidbody.velocity = attackVelocity;
-
+                rb.velocity = currentVelocity;
             }
             else
             {
@@ -125,7 +99,8 @@ public class DisgustEnemy : MonoBehaviour
                 rb.velocity = currentVelocity;
 
                 animator.SetBool("IsAttacking",true);
-            }  
+            }
+               
         }
         else
         {

@@ -13,66 +13,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-06-13T16:54:52.795+01:00
+  lastUpdatedAtString: 2021-06-13T20:00:52.116+01:00
   initializedAtString: 2021-06-13T09:50:17.388+01:00
   entries:
-  - path: Assets/Animations/AngerEnenmy/AngerEnemy.controller
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/AngerEnenmy/AngerEnemy.controller
-    projectPath: Assets/Animations/AngerEnenmy/AngerEnemy.controller
+  - path: Assets/Animations/FearEnemy/Walk.anim
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/FearEnemy/Walk.anim
+    projectPath: Assets/Animations/FearEnemy/Walk.anim
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets/Animations/AngerEnenmy/AngerMonsterAttack.anim
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/AngerEnenmy/AngerMonsterAttack.anim
-    projectPath: Assets/Animations/AngerEnenmy/AngerMonsterAttack.anim
+  - path: Assets/Animations/SadEnemy/SadEnemy.controller
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/SadEnemy/SadEnemy.controller
+    projectPath: Assets/Animations/SadEnemy/SadEnemy.controller
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets/Animations/Dialog.meta
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/Dialog.meta
-    projectPath: Assets/Animations/Dialog.meta
+  - path: Assets/Animations/SadEnemy/SadMonsterAttack.anim
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/SadEnemy/SadMonsterAttack.anim
+    projectPath: Assets/Animations/SadEnemy/SadMonsterAttack.anim
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets/Animations/Dialog/DialogText.controller
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/Dialog/DialogText.controller
-    projectPath: Assets/Animations/Dialog/DialogText.controller
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Animations/Dialog/DialogText.controller.meta
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/Dialog/DialogText.controller.meta
-    projectPath: Assets/Animations/Dialog/DialogText.controller.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Animations/Dialog/Idle.anim
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/Dialog/Idle.anim
-    projectPath: Assets/Animations/Dialog/Idle.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Animations/Dialog/Idle.anim.meta
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/Dialog/Idle.anim.meta
-    projectPath: Assets/Animations/Dialog/Idle.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Animations/DisgustEnemy/DisgustEnemy.controller
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/DisgustEnemy/DisgustEnemy.controller
-    projectPath: Assets/Animations/DisgustEnemy/DisgustEnemy.controller
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/DialogBox.cs
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/DialogBox.cs
-    projectPath: Assets/DialogBox.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/DialogBox.cs.meta
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/DialogBox.cs.meta
-    projectPath: Assets/DialogBox.cs.meta
+  - path: Assets/Animations/SadEnemy/SadMonsterAttack.anim.meta
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Animations/SadEnemy/SadMonsterAttack.anim.meta
+    projectPath: Assets/Animations/SadEnemy/SadMonsterAttack.anim.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -88,109 +52,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets/Scripts/DialogIntro.cs
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/DialogIntro.cs
-    projectPath: Assets/Scripts/DialogIntro.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Scripts/DialogIntro.cs.meta
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/DialogIntro.cs.meta
-    projectPath: Assets/Scripts/DialogIntro.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Assets/Scripts/DisgustEnemy.cs
     fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/DisgustEnemy.cs
     projectPath: Assets/Scripts/DisgustEnemy.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets/Scripts/FearEnemy.cs
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/FearEnemy.cs
-    projectPath: Assets/Scripts/FearEnemy.cs
+  - path: Assets/Scripts/GameManager.cs
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/GameManager.cs
+    projectPath: Assets/Scripts/GameManager.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets/Scripts/PlayerMovement.cs
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/PlayerMovement.cs
-    projectPath: Assets/Scripts/PlayerMovement.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Scripts/SadEnemy.cs
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Scripts/SadEnemy.cs
-    projectPath: Assets/Scripts/SadEnemy.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Sprites/Dialogs.meta
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/Dialogs.meta
-    projectPath: Assets/Sprites/Dialogs.meta
+  - path: Assets/Sprites/Enemies/SadMonsterAttackSprite.png
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/Enemies/SadMonsterAttackSprite.png
+    projectPath: Assets/Sprites/Enemies/SadMonsterAttackSprite.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets/Sprites/Dialogs/24-248729_mask-blank-text-box-png.png
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/Dialogs/24-248729_mask-blank-text-box-png.png
-    projectPath: Assets/Sprites/Dialogs/24-248729_mask-blank-text-box-png.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Sprites/Dialogs/24-248729_mask-blank-text-box-png.png.meta
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/Dialogs/24-248729_mask-blank-text-box-png.png.meta
-    projectPath: Assets/Sprites/Dialogs/24-248729_mask-blank-text-box-png.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Sprites/Dialogs/TextBox.png
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/Dialogs/TextBox.png
-    projectPath: Assets/Sprites/Dialogs/TextBox.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Sprites/Dialogs/TextBox.png.meta
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/Dialogs/TextBox.png.meta
-    projectPath: Assets/Sprites/Dialogs/TextBox.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Sprites/Dialogs/ThinkingBaloon.png
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/Dialogs/ThinkingBaloon.png
-    projectPath: Assets/Sprites/Dialogs/ThinkingBaloon.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Sprites/Dialogs/ThinkingBaloon.png.meta
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/Dialogs/ThinkingBaloon.png.meta
-    projectPath: Assets/Sprites/Dialogs/ThinkingBaloon.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/TextMesh Pro/Fonts/orange kid SDF.asset
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/TextMesh Pro/Fonts/orange
-      kid SDF.asset
-    projectPath: Assets/TextMesh Pro/Fonts/orange kid SDF.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/TextMesh Pro/Fonts/orange kid SDF.asset.meta
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/TextMesh Pro/Fonts/orange
-      kid SDF.asset.meta
-    projectPath: Assets/TextMesh Pro/Fonts/orange kid SDF.asset.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/TextMesh Pro/Fonts/orange kid.ttf
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/TextMesh Pro/Fonts/orange
-      kid.ttf
-    projectPath: Assets/TextMesh Pro/Fonts/orange kid.ttf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/TextMesh Pro/Fonts/orange kid.ttf.meta
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/TextMesh Pro/Fonts/orange
-      kid.ttf.meta
-    projectPath: Assets/TextMesh Pro/Fonts/orange kid.ttf.meta
+  - path: Assets/Sprites/Enemies/SadMonsterAttackSprite.png.meta
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Assets/Sprites/Enemies/SadMonsterAttackSprite.png.meta
+    projectPath: Assets/Sprites/Enemies/SadMonsterAttackSprite.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -200,411 +82,147 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/Artifacts/04/04f7a2a3ccf5789f92ec2c8db26c3f13
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/04/04f7a2a3ccf5789f92ec2c8db26c3f13
-    projectPath: Library/Artifacts/04/04f7a2a3ccf5789f92ec2c8db26c3f13
+  - path: Library/Artifacts/07/07649825e9519d6f7a50768d35144569
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/07/07649825e9519d6f7a50768d35144569
+    projectPath: Library/Artifacts/07/07649825e9519d6f7a50768d35144569
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/05/05d899b7998e7e1facfbeb6b62a48ffb
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/05/05d899b7998e7e1facfbeb6b62a48ffb
-    projectPath: Library/Artifacts/05/05d899b7998e7e1facfbeb6b62a48ffb
+  - path: Library/Artifacts/12/12671727e10545f49e41da3b087e4f14
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/12/12671727e10545f49e41da3b087e4f14
+    projectPath: Library/Artifacts/12/12671727e10545f49e41da3b087e4f14
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/0d/0decf7830248096bdd26ed54c3217054
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/0d/0decf7830248096bdd26ed54c3217054
-    projectPath: Library/Artifacts/0d/0decf7830248096bdd26ed54c3217054
+  - path: Library/Artifacts/1e/1e9dfcc48af704a77805ca113f2269d7
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/1e/1e9dfcc48af704a77805ca113f2269d7
+    projectPath: Library/Artifacts/1e/1e9dfcc48af704a77805ca113f2269d7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/1b/1b12eb61bbc170e6038efe451e1622b0
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/1b/1b12eb61bbc170e6038efe451e1622b0
-    projectPath: Library/Artifacts/1b/1b12eb61bbc170e6038efe451e1622b0
+  - path: Library/Artifacts/2b/2b5f66b1c09941fbf7c34a7f2d1045af
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/2b/2b5f66b1c09941fbf7c34a7f2d1045af
+    projectPath: Library/Artifacts/2b/2b5f66b1c09941fbf7c34a7f2d1045af
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/20/20ccc597787b0d8f1783230115dcf9d9
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/20/20ccc597787b0d8f1783230115dcf9d9
-    projectPath: Library/Artifacts/20/20ccc597787b0d8f1783230115dcf9d9
+  - path: Library/Artifacts/51/51516f8cc7418cc80898033586746601
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/51/51516f8cc7418cc80898033586746601
+    projectPath: Library/Artifacts/51/51516f8cc7418cc80898033586746601
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/26/268a6039b88c4885d2b318abf6e3543e
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/26/268a6039b88c4885d2b318abf6e3543e
-    projectPath: Library/Artifacts/26/268a6039b88c4885d2b318abf6e3543e
+  - path: Library/Artifacts/83/83cb8f404871c05217796a2bf4bbeaf3
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/83/83cb8f404871c05217796a2bf4bbeaf3
+    projectPath: Library/Artifacts/83/83cb8f404871c05217796a2bf4bbeaf3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/29/29531a78d4e74f1d828f874bc115a6b7
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/29/29531a78d4e74f1d828f874bc115a6b7
-    projectPath: Library/Artifacts/29/29531a78d4e74f1d828f874bc115a6b7
+  - path: Library/Artifacts/87/87f918839688c34f9533cece00577337
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/87/87f918839688c34f9533cece00577337
+    projectPath: Library/Artifacts/87/87f918839688c34f9533cece00577337
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/2b/2b452e3b83377a172cf0e97ee7c20ff3
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/2b/2b452e3b83377a172cf0e97ee7c20ff3
-    projectPath: Library/Artifacts/2b/2b452e3b83377a172cf0e97ee7c20ff3
+  - path: Library/Artifacts/89/89e1bab5177e54807cea6a758c976930
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/89/89e1bab5177e54807cea6a758c976930
+    projectPath: Library/Artifacts/89/89e1bab5177e54807cea6a758c976930
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/2e/2e3a5d901652e1f59579583e7de1d8ce
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/2e/2e3a5d901652e1f59579583e7de1d8ce
-    projectPath: Library/Artifacts/2e/2e3a5d901652e1f59579583e7de1d8ce
+  - path: Library/Artifacts/8b/8b11de91f8f184be2822453915c2b6d9
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/8b/8b11de91f8f184be2822453915c2b6d9
+    projectPath: Library/Artifacts/8b/8b11de91f8f184be2822453915c2b6d9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/30/30095552d40014dce1ece47a18e745f8
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/30/30095552d40014dce1ece47a18e745f8
-    projectPath: Library/Artifacts/30/30095552d40014dce1ece47a18e745f8
+  - path: Library/Artifacts/8d/8d662fec95db54183b84e40c672b0888
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/8d/8d662fec95db54183b84e40c672b0888
+    projectPath: Library/Artifacts/8d/8d662fec95db54183b84e40c672b0888
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/31/31edfcf7a5090dda30cce2f339d24bed
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/31/31edfcf7a5090dda30cce2f339d24bed
-    projectPath: Library/Artifacts/31/31edfcf7a5090dda30cce2f339d24bed
+  - path: Library/Artifacts/8d/8df5cf80b558a397517102f5c0583e8c
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/8d/8df5cf80b558a397517102f5c0583e8c
+    projectPath: Library/Artifacts/8d/8df5cf80b558a397517102f5c0583e8c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/39/3921f2f5c1ecaac11bc4883c33b76c64
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/39/3921f2f5c1ecaac11bc4883c33b76c64
-    projectPath: Library/Artifacts/39/3921f2f5c1ecaac11bc4883c33b76c64
+  - path: Library/Artifacts/93/933add2ba9ad890acb925a10dff31135
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/93/933add2ba9ad890acb925a10dff31135
+    projectPath: Library/Artifacts/93/933add2ba9ad890acb925a10dff31135
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/39/3932f41d1192e269f7543f83bca99955
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/39/3932f41d1192e269f7543f83bca99955
-    projectPath: Library/Artifacts/39/3932f41d1192e269f7543f83bca99955
+  - path: Library/Artifacts/a5/a5322c4c50dd9ac12cca9b973283ce7d
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/a5/a5322c4c50dd9ac12cca9b973283ce7d
+    projectPath: Library/Artifacts/a5/a5322c4c50dd9ac12cca9b973283ce7d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/3d/3d5ba59d5ce95b6c9b7a68c7d1ef1985
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/3d/3d5ba59d5ce95b6c9b7a68c7d1ef1985
-    projectPath: Library/Artifacts/3d/3d5ba59d5ce95b6c9b7a68c7d1ef1985
+  - path: Library/Artifacts/a7/a73cba754eb8209daef2c33c69b91455
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/a7/a73cba754eb8209daef2c33c69b91455
+    projectPath: Library/Artifacts/a7/a73cba754eb8209daef2c33c69b91455
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/3f/3f31c4325d5b9f4532bf10ba938e2417
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/3f/3f31c4325d5b9f4532bf10ba938e2417
-    projectPath: Library/Artifacts/3f/3f31c4325d5b9f4532bf10ba938e2417
+  - path: Library/Artifacts/af/af869f1fe5d0baad638e67deae0c269e
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/af/af869f1fe5d0baad638e67deae0c269e
+    projectPath: Library/Artifacts/af/af869f1fe5d0baad638e67deae0c269e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/3f/3fb98aec5c328c44c5c9da788d5c1aa4
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/3f/3fb98aec5c328c44c5c9da788d5c1aa4
-    projectPath: Library/Artifacts/3f/3fb98aec5c328c44c5c9da788d5c1aa4
+  - path: Library/Artifacts/b9/b97bcda53474833c7192754692ba5885
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/b9/b97bcda53474833c7192754692ba5885
+    projectPath: Library/Artifacts/b9/b97bcda53474833c7192754692ba5885
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/49/497aa4621a9941f1539b8b4d96db5b11
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/49/497aa4621a9941f1539b8b4d96db5b11
-    projectPath: Library/Artifacts/49/497aa4621a9941f1539b8b4d96db5b11
+  - path: Library/Artifacts/c6/c6f5baa1d76aafe0943d1e7de5c67f30
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/c6/c6f5baa1d76aafe0943d1e7de5c67f30
+    projectPath: Library/Artifacts/c6/c6f5baa1d76aafe0943d1e7de5c67f30
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/4c/4c748561d7b404e8657dcaafad31a935
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/4c/4c748561d7b404e8657dcaafad31a935
-    projectPath: Library/Artifacts/4c/4c748561d7b404e8657dcaafad31a935
+  - path: Library/Artifacts/cf/cf95a05137181b662934bcb0b641338b
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/cf/cf95a05137181b662934bcb0b641338b
+    projectPath: Library/Artifacts/cf/cf95a05137181b662934bcb0b641338b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/5b/5b488b6e9f01bad9c612cf4cb3b9dce5
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/5b/5b488b6e9f01bad9c612cf4cb3b9dce5
-    projectPath: Library/Artifacts/5b/5b488b6e9f01bad9c612cf4cb3b9dce5
+  - path: Library/Artifacts/d6/d68a7f17018cfaa570f662be193daeb8
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/d6/d68a7f17018cfaa570f662be193daeb8
+    projectPath: Library/Artifacts/d6/d68a7f17018cfaa570f662be193daeb8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/5d/5df42531be05c0e54cda7bd6c0bb4bb1
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/5d/5df42531be05c0e54cda7bd6c0bb4bb1
-    projectPath: Library/Artifacts/5d/5df42531be05c0e54cda7bd6c0bb4bb1
+  - path: Library/Artifacts/d9/d99f1b769d57c46898cc5335a9720f18
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/d9/d99f1b769d57c46898cc5335a9720f18
+    projectPath: Library/Artifacts/d9/d99f1b769d57c46898cc5335a9720f18
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/60/60124d8c3fc1c2c7609737ba8f2c45a8
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/60/60124d8c3fc1c2c7609737ba8f2c45a8
-    projectPath: Library/Artifacts/60/60124d8c3fc1c2c7609737ba8f2c45a8
+  - path: Library/Artifacts/e2/e2d8fcc48057745ce4a6ff40e5f80e34
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/e2/e2d8fcc48057745ce4a6ff40e5f80e34
+    projectPath: Library/Artifacts/e2/e2d8fcc48057745ce4a6ff40e5f80e34
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/61/61c5bc01e265fe2a8bbf866e976c7c9c
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/61/61c5bc01e265fe2a8bbf866e976c7c9c
-    projectPath: Library/Artifacts/61/61c5bc01e265fe2a8bbf866e976c7c9c
+  - path: Library/Artifacts/ea/ea58fb8daa83bfd07141512b778ae756
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/ea/ea58fb8daa83bfd07141512b778ae756
+    projectPath: Library/Artifacts/ea/ea58fb8daa83bfd07141512b778ae756
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/63/63c454ff7041959021dcb50d7344f62a
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/63/63c454ff7041959021dcb50d7344f62a
-    projectPath: Library/Artifacts/63/63c454ff7041959021dcb50d7344f62a
+  - path: Library/Artifacts/f0/f0ecfba24cbd8259ec828f5004cd85d3
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/f0/f0ecfba24cbd8259ec828f5004cd85d3
+    projectPath: Library/Artifacts/f0/f0ecfba24cbd8259ec828f5004cd85d3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/66/666323dde7caa64ef755a55c1344021c
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/66/666323dde7caa64ef755a55c1344021c
-    projectPath: Library/Artifacts/66/666323dde7caa64ef755a55c1344021c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/71/7177fd67aa30835af7b29f97e53033fb
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/71/7177fd67aa30835af7b29f97e53033fb
-    projectPath: Library/Artifacts/71/7177fd67aa30835af7b29f97e53033fb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/78/78aa0c0887222c809f8e5f4eaa2e878b
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/78/78aa0c0887222c809f8e5f4eaa2e878b
-    projectPath: Library/Artifacts/78/78aa0c0887222c809f8e5f4eaa2e878b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/7a/7a25ea04d241eb44639bdbb8b691659f
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/7a/7a25ea04d241eb44639bdbb8b691659f
-    projectPath: Library/Artifacts/7a/7a25ea04d241eb44639bdbb8b691659f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/7a/7a7dcfade3fbdd78331b4c7f2c178afa
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/7a/7a7dcfade3fbdd78331b4c7f2c178afa
-    projectPath: Library/Artifacts/7a/7a7dcfade3fbdd78331b4c7f2c178afa
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/7c/7c2303aa3f1415c34249c6e1332c629c
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/7c/7c2303aa3f1415c34249c6e1332c629c
-    projectPath: Library/Artifacts/7c/7c2303aa3f1415c34249c6e1332c629c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/89/89773632651d0b80da054397f6b95106
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/89/89773632651d0b80da054397f6b95106
-    projectPath: Library/Artifacts/89/89773632651d0b80da054397f6b95106
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/8c/8c675cd372983a8e2b8d56008261d5bc
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/8c/8c675cd372983a8e2b8d56008261d5bc
-    projectPath: Library/Artifacts/8c/8c675cd372983a8e2b8d56008261d5bc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/97/97ec5fc18798bfd483f60c76b28f06cf
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/97/97ec5fc18798bfd483f60c76b28f06cf
-    projectPath: Library/Artifacts/97/97ec5fc18798bfd483f60c76b28f06cf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/99/999d09637991d98801f3393e59ccd72e
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/99/999d09637991d98801f3393e59ccd72e
-    projectPath: Library/Artifacts/99/999d09637991d98801f3393e59ccd72e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/9a/9ac9a7f1724839183b774d5105aa392b
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/9a/9ac9a7f1724839183b774d5105aa392b
-    projectPath: Library/Artifacts/9a/9ac9a7f1724839183b774d5105aa392b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/9b/9b9b7eda7d9d76630f5eb1f03d059886
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/9b/9b9b7eda7d9d76630f5eb1f03d059886
-    projectPath: Library/Artifacts/9b/9b9b7eda7d9d76630f5eb1f03d059886
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/9d/9d68dfd0164a9f02430d328389212483
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/9d/9d68dfd0164a9f02430d328389212483
-    projectPath: Library/Artifacts/9d/9d68dfd0164a9f02430d328389212483
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/9d/9d6cf0012267647fc254d8635aa17bcd
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/9d/9d6cf0012267647fc254d8635aa17bcd
-    projectPath: Library/Artifacts/9d/9d6cf0012267647fc254d8635aa17bcd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/9d/9d984890d963a98f7128b122378fd9d3
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/9d/9d984890d963a98f7128b122378fd9d3
-    projectPath: Library/Artifacts/9d/9d984890d963a98f7128b122378fd9d3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/9e/9eb40728186efa17dfa5722fbdce28ad
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/9e/9eb40728186efa17dfa5722fbdce28ad
-    projectPath: Library/Artifacts/9e/9eb40728186efa17dfa5722fbdce28ad
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/a6/a638c29c31d5880f55aedb3388893409
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/a6/a638c29c31d5880f55aedb3388893409
-    projectPath: Library/Artifacts/a6/a638c29c31d5880f55aedb3388893409
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/a7/a792a39e1f71d21dc9f1b02e4546e0f0
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/a7/a792a39e1f71d21dc9f1b02e4546e0f0
-    projectPath: Library/Artifacts/a7/a792a39e1f71d21dc9f1b02e4546e0f0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/ae/ae991d2c072aa74837f96948677292d3
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/ae/ae991d2c072aa74837f96948677292d3
-    projectPath: Library/Artifacts/ae/ae991d2c072aa74837f96948677292d3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/b6/b66140260c8676ec16851f9ea3e80575
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/b6/b66140260c8676ec16851f9ea3e80575
-    projectPath: Library/Artifacts/b6/b66140260c8676ec16851f9ea3e80575
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/b9/b926c91242bda95b7765088be06eebbc
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/b9/b926c91242bda95b7765088be06eebbc
-    projectPath: Library/Artifacts/b9/b926c91242bda95b7765088be06eebbc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/b9/b9efd85192b20311f78fed5584cc6f4d
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/b9/b9efd85192b20311f78fed5584cc6f4d
-    projectPath: Library/Artifacts/b9/b9efd85192b20311f78fed5584cc6f4d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/bb/bb32b1d6784b61fe6c0ab968cf23e98e
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/bb/bb32b1d6784b61fe6c0ab968cf23e98e
-    projectPath: Library/Artifacts/bb/bb32b1d6784b61fe6c0ab968cf23e98e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/bc/bc96f6b34b2fe48a44374a074ca624f0
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/bc/bc96f6b34b2fe48a44374a074ca624f0
-    projectPath: Library/Artifacts/bc/bc96f6b34b2fe48a44374a074ca624f0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/c0/c060034fc2523ee198f22cd4bf2fd5ca
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/c0/c060034fc2523ee198f22cd4bf2fd5ca
-    projectPath: Library/Artifacts/c0/c060034fc2523ee198f22cd4bf2fd5ca
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/c2/c237181fabd680135d20354501e83c5b
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/c2/c237181fabd680135d20354501e83c5b
-    projectPath: Library/Artifacts/c2/c237181fabd680135d20354501e83c5b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/c9/c99938e794ae2e06084097b0491b9e28
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/c9/c99938e794ae2e06084097b0491b9e28
-    projectPath: Library/Artifacts/c9/c99938e794ae2e06084097b0491b9e28
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/c9/c9cf862c5380738abf4deac09e12e2aa
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/c9/c9cf862c5380738abf4deac09e12e2aa
-    projectPath: Library/Artifacts/c9/c9cf862c5380738abf4deac09e12e2aa
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/cd/cdc053ec913cff25de926997d2930e8d
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/cd/cdc053ec913cff25de926997d2930e8d
-    projectPath: Library/Artifacts/cd/cdc053ec913cff25de926997d2930e8d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/d1/d127b97c8602acd0c9639fbc1c6703dd
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/d1/d127b97c8602acd0c9639fbc1c6703dd
-    projectPath: Library/Artifacts/d1/d127b97c8602acd0c9639fbc1c6703dd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/d3/d3fdb4942c99fba40f4807acf513b2c9
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/d3/d3fdb4942c99fba40f4807acf513b2c9
-    projectPath: Library/Artifacts/d3/d3fdb4942c99fba40f4807acf513b2c9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/d5/d5df8eafbeea36cbf71e2f8fbfd02c01
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/d5/d5df8eafbeea36cbf71e2f8fbfd02c01
-    projectPath: Library/Artifacts/d5/d5df8eafbeea36cbf71e2f8fbfd02c01
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/db/db6133d433ed043fe67fc079075f7f06
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/db/db6133d433ed043fe67fc079075f7f06
-    projectPath: Library/Artifacts/db/db6133d433ed043fe67fc079075f7f06
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/e6/e6b2c84c73cda8f83854cc7eebbd2ec6
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/e6/e6b2c84c73cda8f83854cc7eebbd2ec6
-    projectPath: Library/Artifacts/e6/e6b2c84c73cda8f83854cc7eebbd2ec6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/e9/e97979db84b7d8bdf87aa289636aaef0
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/e9/e97979db84b7d8bdf87aa289636aaef0
-    projectPath: Library/Artifacts/e9/e97979db84b7d8bdf87aa289636aaef0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/ec/ecea530eba070ac39794e41f8f765a36
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/ec/ecea530eba070ac39794e41f8f765a36
-    projectPath: Library/Artifacts/ec/ecea530eba070ac39794e41f8f765a36
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/ed/eda2e842f4833404126feb805a48d292
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/ed/eda2e842f4833404126feb805a48d292
-    projectPath: Library/Artifacts/ed/eda2e842f4833404126feb805a48d292
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/f0/f098178233d2097eba1e6a3d81b68d03
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/f0/f098178233d2097eba1e6a3d81b68d03
-    projectPath: Library/Artifacts/f0/f098178233d2097eba1e6a3d81b68d03
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/f2/f29c3e486fb4c48b2bf255d40372b881
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/f2/f29c3e486fb4c48b2bf255d40372b881
-    projectPath: Library/Artifacts/f2/f29c3e486fb4c48b2bf255d40372b881
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/f2/f2ae36ef54555b19dcefeb6be4b068e0
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/f2/f2ae36ef54555b19dcefeb6be4b068e0
-    projectPath: Library/Artifacts/f2/f2ae36ef54555b19dcefeb6be4b068e0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/f4/f4bcc8fad99f8838be1ed790e39452ec
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/f4/f4bcc8fad99f8838be1ed790e39452ec
-    projectPath: Library/Artifacts/f4/f4bcc8fad99f8838be1ed790e39452ec
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/fc/fc8079c84f2e1fabb7f5690ace842b08
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/fc/fc8079c84f2e1fabb7f5690ace842b08
-    projectPath: Library/Artifacts/fc/fc8079c84f2e1fabb7f5690ace842b08
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/fd/fd00fe153d2058272039f2847f6f7547
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/fd/fd00fe153d2058272039f2847f6f7547
-    projectPath: Library/Artifacts/fd/fd00fe153d2058272039f2847f6f7547
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/fd/fd85f045991fbd549e61085e05cdc715
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/fd/fd85f045991fbd549e61085e05cdc715
-    projectPath: Library/Artifacts/fd/fd85f045991fbd549e61085e05cdc715
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Collab/Base/Assets/Scenes/SampleScene.unity
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Collab/Base/Assets/Scenes/SampleScene.unity
-    projectPath: Library/Collab/Base/Assets/Scenes/SampleScene.unity
+  - path: Library/Artifacts/f8/f83b4a0e380997b9af362d3a8052b6ef
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Artifacts/f8/f83b4a0e380997b9af362d3a8052b6ef
+    projectPath: Library/Artifacts/f8/f83b4a0e380997b9af362d3a8052b6ef
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -620,18 +238,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/Collab/Download/Assets/Scenes/SampleScene.unity
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Collab/Download/Assets/Scenes/SampleScene.unity
-    projectPath: Library/Collab/Download/Assets/Scenes/SampleScene.unity
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Collab/Original/Assets/Scenes/SampleScene.unity
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/Collab/Original/Assets/Scenes/SampleScene.unity
-    projectPath: Library/Collab/Original/Assets/Scenes/SampleScene.unity
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library/CurrentMaximizeLayout.dwlt
     fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/CurrentMaximizeLayout.dwlt
     projectPath: Library/CurrentMaximizeLayout.dwlt
@@ -668,12 +274,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/MergeTypeInfo.f1.asset
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/MergeTypeInfo.f1.asset
-    projectPath: Library/MergeTypeInfo.f1.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library/SceneVisibilityState.asset
     fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/SceneVisibilityState.asset
     projectPath: Library/SceneVisibilityState.asset
@@ -689,12 +289,6 @@ MonoBehaviour:
   - path: Library/ScriptAssemblies/Assembly-CSharp.pdb
     fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/ScriptAssemblies/Assembly-CSharp.pdb
     projectPath: Library/ScriptAssemblies/Assembly-CSharp.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ShaderCache/EditorEncounteredVariants
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Library/ShaderCache/EditorEncounteredVariants
-    projectPath: Library/ShaderCache/EditorEncounteredVariants
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -722,321 +316,117 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Temp/UnityTempFile-022ba77f87371408e9c95548f1c4e19a
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-022ba77f87371408e9c95548f1c4e19a
-    projectPath: Temp/UnityTempFile-022ba77f87371408e9c95548f1c4e19a
+  - path: Temp/UnityTempFile-1a783a674c65146a399db646bb380d45
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-1a783a674c65146a399db646bb380d45
+    projectPath: Temp/UnityTempFile-1a783a674c65146a399db646bb380d45
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-0bd4a0e63821e42d488be14c50039fce
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-0bd4a0e63821e42d488be14c50039fce
-    projectPath: Temp/UnityTempFile-0bd4a0e63821e42d488be14c50039fce
+  - path: Temp/UnityTempFile-1c40606519c7649ccb17b21340650f67
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-1c40606519c7649ccb17b21340650f67
+    projectPath: Temp/UnityTempFile-1c40606519c7649ccb17b21340650f67
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-1255fca40dbb3411484db4dd489a2fe5
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-1255fca40dbb3411484db4dd489a2fe5
-    projectPath: Temp/UnityTempFile-1255fca40dbb3411484db4dd489a2fe5
+  - path: Temp/UnityTempFile-2948c1a9331444e3191b39ba770ce3b3
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-2948c1a9331444e3191b39ba770ce3b3
+    projectPath: Temp/UnityTempFile-2948c1a9331444e3191b39ba770ce3b3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-16298c78f61934fdeb34522d046ca0c4
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-16298c78f61934fdeb34522d046ca0c4
-    projectPath: Temp/UnityTempFile-16298c78f61934fdeb34522d046ca0c4
+  - path: Temp/UnityTempFile-2f86eaa5956734cc4b41b565085c9719
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-2f86eaa5956734cc4b41b565085c9719
+    projectPath: Temp/UnityTempFile-2f86eaa5956734cc4b41b565085c9719
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-19082aefb198947309369126d00d8657
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-19082aefb198947309369126d00d8657
-    projectPath: Temp/UnityTempFile-19082aefb198947309369126d00d8657
+  - path: Temp/UnityTempFile-38348ba3de73442bcbdab0cbf9807eed
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-38348ba3de73442bcbdab0cbf9807eed
+    projectPath: Temp/UnityTempFile-38348ba3de73442bcbdab0cbf9807eed
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-1b94a23c8a9414cf9868e882c5741352
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-1b94a23c8a9414cf9868e882c5741352
-    projectPath: Temp/UnityTempFile-1b94a23c8a9414cf9868e882c5741352
+  - path: Temp/UnityTempFile-3bd41d041a30c4c6eacfb6babc8b7563
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-3bd41d041a30c4c6eacfb6babc8b7563
+    projectPath: Temp/UnityTempFile-3bd41d041a30c4c6eacfb6babc8b7563
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-2bb759e10b695471ba83e5235e520603
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-2bb759e10b695471ba83e5235e520603
-    projectPath: Temp/UnityTempFile-2bb759e10b695471ba83e5235e520603
+  - path: Temp/UnityTempFile-4075bf56ff8bd4d99811a38b8513bfab
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-4075bf56ff8bd4d99811a38b8513bfab
+    projectPath: Temp/UnityTempFile-4075bf56ff8bd4d99811a38b8513bfab
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-2d1438181eb17404e86c9f2c7d311203
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-2d1438181eb17404e86c9f2c7d311203
-    projectPath: Temp/UnityTempFile-2d1438181eb17404e86c9f2c7d311203
+  - path: Temp/UnityTempFile-4880d45930364472c916d38c3ffde059
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-4880d45930364472c916d38c3ffde059
+    projectPath: Temp/UnityTempFile-4880d45930364472c916d38c3ffde059
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-2d22b089ddbc04e81abb0377e12fa3eb
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-2d22b089ddbc04e81abb0377e12fa3eb
-    projectPath: Temp/UnityTempFile-2d22b089ddbc04e81abb0377e12fa3eb
+  - path: Temp/UnityTempFile-4e1630d43b70248e68438f9740512204
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-4e1630d43b70248e68438f9740512204
+    projectPath: Temp/UnityTempFile-4e1630d43b70248e68438f9740512204
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-30d06aad2668141bda41a25008869bb9
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-30d06aad2668141bda41a25008869bb9
-    projectPath: Temp/UnityTempFile-30d06aad2668141bda41a25008869bb9
+  - path: Temp/UnityTempFile-543230bde60f74ccfa8ae878a3b22a01
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-543230bde60f74ccfa8ae878a3b22a01
+    projectPath: Temp/UnityTempFile-543230bde60f74ccfa8ae878a3b22a01
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-341bf65a3e33b42dd814af77db087316
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-341bf65a3e33b42dd814af77db087316
-    projectPath: Temp/UnityTempFile-341bf65a3e33b42dd814af77db087316
+  - path: Temp/UnityTempFile-5c0160477d911473fab019f32be7da37
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-5c0160477d911473fab019f32be7da37
+    projectPath: Temp/UnityTempFile-5c0160477d911473fab019f32be7da37
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-3fdb2926ddae84d8cb1bef492287ff15
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-3fdb2926ddae84d8cb1bef492287ff15
-    projectPath: Temp/UnityTempFile-3fdb2926ddae84d8cb1bef492287ff15
+  - path: Temp/UnityTempFile-5f0582e94c01c43d7b7b1837a46a6011
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-5f0582e94c01c43d7b7b1837a46a6011
+    projectPath: Temp/UnityTempFile-5f0582e94c01c43d7b7b1837a46a6011
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-41e2de8fe96e84333b516e8a9a7e36b9
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-41e2de8fe96e84333b516e8a9a7e36b9
-    projectPath: Temp/UnityTempFile-41e2de8fe96e84333b516e8a9a7e36b9
+  - path: Temp/UnityTempFile-88126e933abe74d1780119db77c759a1
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-88126e933abe74d1780119db77c759a1
+    projectPath: Temp/UnityTempFile-88126e933abe74d1780119db77c759a1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-4adda9c4ca6ec4b5aab7e2a57b94cf7d
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-4adda9c4ca6ec4b5aab7e2a57b94cf7d
-    projectPath: Temp/UnityTempFile-4adda9c4ca6ec4b5aab7e2a57b94cf7d
+  - path: Temp/UnityTempFile-99eedde3b21ba4968aa35b495a8847d5
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-99eedde3b21ba4968aa35b495a8847d5
+    projectPath: Temp/UnityTempFile-99eedde3b21ba4968aa35b495a8847d5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-4c5344fe3674748109ef4c784efe4c35
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-4c5344fe3674748109ef4c784efe4c35
-    projectPath: Temp/UnityTempFile-4c5344fe3674748109ef4c784efe4c35
+  - path: Temp/UnityTempFile-a780a7ed34cb24f69ab3a7b480fd2310
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-a780a7ed34cb24f69ab3a7b480fd2310
+    projectPath: Temp/UnityTempFile-a780a7ed34cb24f69ab3a7b480fd2310
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-510d50b0aac264c25b073bcf2ad7e6da
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-510d50b0aac264c25b073bcf2ad7e6da
-    projectPath: Temp/UnityTempFile-510d50b0aac264c25b073bcf2ad7e6da
+  - path: Temp/UnityTempFile-abc3fc318f23546aa95616886f9cca88
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-abc3fc318f23546aa95616886f9cca88
+    projectPath: Temp/UnityTempFile-abc3fc318f23546aa95616886f9cca88
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-51ec1d2a308b14b2c9bda8f571baa750
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-51ec1d2a308b14b2c9bda8f571baa750
-    projectPath: Temp/UnityTempFile-51ec1d2a308b14b2c9bda8f571baa750
+  - path: Temp/UnityTempFile-b226537a9a01a4e9e85367d45fb4d76e
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-b226537a9a01a4e9e85367d45fb4d76e
+    projectPath: Temp/UnityTempFile-b226537a9a01a4e9e85367d45fb4d76e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-5817c763394d34302be5483383a3b580
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-5817c763394d34302be5483383a3b580
-    projectPath: Temp/UnityTempFile-5817c763394d34302be5483383a3b580
+  - path: Temp/UnityTempFile-b8be95d4e3bce48febb795a3ed08b405
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-b8be95d4e3bce48febb795a3ed08b405
+    projectPath: Temp/UnityTempFile-b8be95d4e3bce48febb795a3ed08b405
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-6693d9c8499ea4755afedcba9d376934
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-6693d9c8499ea4755afedcba9d376934
-    projectPath: Temp/UnityTempFile-6693d9c8499ea4755afedcba9d376934
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-742bc9c385cc244baa6305622ce6d63d
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-742bc9c385cc244baa6305622ce6d63d
-    projectPath: Temp/UnityTempFile-742bc9c385cc244baa6305622ce6d63d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-75a6c8d0085be49708729eb421399534
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-75a6c8d0085be49708729eb421399534
-    projectPath: Temp/UnityTempFile-75a6c8d0085be49708729eb421399534
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-7d97d6f04490c48aebb113dc4e4d3778
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-7d97d6f04490c48aebb113dc4e4d3778
-    projectPath: Temp/UnityTempFile-7d97d6f04490c48aebb113dc4e4d3778
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-808427fc53c3a4c16ac39b4f893a56fa
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-808427fc53c3a4c16ac39b4f893a56fa
-    projectPath: Temp/UnityTempFile-808427fc53c3a4c16ac39b4f893a56fa
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-89f0f38d101714f3199b18b0a3085501
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-89f0f38d101714f3199b18b0a3085501
-    projectPath: Temp/UnityTempFile-89f0f38d101714f3199b18b0a3085501
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-902e5a18fc9e14fb996aef55e67c9b52
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-902e5a18fc9e14fb996aef55e67c9b52
-    projectPath: Temp/UnityTempFile-902e5a18fc9e14fb996aef55e67c9b52
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-93a50b9e425874543a054a5ea81166f7
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-93a50b9e425874543a054a5ea81166f7
-    projectPath: Temp/UnityTempFile-93a50b9e425874543a054a5ea81166f7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-944a0a837c59643438b5934491bb087a
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-944a0a837c59643438b5934491bb087a
-    projectPath: Temp/UnityTempFile-944a0a837c59643438b5934491bb087a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-9468ef4d2e20246cf8cc4f71eb9d1cf3
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-9468ef4d2e20246cf8cc4f71eb9d1cf3
-    projectPath: Temp/UnityTempFile-9468ef4d2e20246cf8cc4f71eb9d1cf3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-94e7789be7fab43488f3cba0d742ef77
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-94e7789be7fab43488f3cba0d742ef77
-    projectPath: Temp/UnityTempFile-94e7789be7fab43488f3cba0d742ef77
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-9b0d372bee5174a4d959876085bb60ad
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-9b0d372bee5174a4d959876085bb60ad
-    projectPath: Temp/UnityTempFile-9b0d372bee5174a4d959876085bb60ad
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-9bdaa4a50781c476881a92ac6fdccc0b
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-9bdaa4a50781c476881a92ac6fdccc0b
-    projectPath: Temp/UnityTempFile-9bdaa4a50781c476881a92ac6fdccc0b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-a0c38a0e4247847038ae17553f4ca636
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-a0c38a0e4247847038ae17553f4ca636
-    projectPath: Temp/UnityTempFile-a0c38a0e4247847038ae17553f4ca636
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-a249d4545c030477a9fa1446408ad184
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-a249d4545c030477a9fa1446408ad184
-    projectPath: Temp/UnityTempFile-a249d4545c030477a9fa1446408ad184
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-a5dfed79d43f04c5fbe210ae58760aef
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-a5dfed79d43f04c5fbe210ae58760aef
-    projectPath: Temp/UnityTempFile-a5dfed79d43f04c5fbe210ae58760aef
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-ae8e2f215c7c34934a274b1bec14a1de
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-ae8e2f215c7c34934a274b1bec14a1de
-    projectPath: Temp/UnityTempFile-ae8e2f215c7c34934a274b1bec14a1de
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-bce55a322619b4b9d930ed9adbe2fca6
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-bce55a322619b4b9d930ed9adbe2fca6
-    projectPath: Temp/UnityTempFile-bce55a322619b4b9d930ed9adbe2fca6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-c5ad1f8ea1769453cb753ba04cca6860
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-c5ad1f8ea1769453cb753ba04cca6860
-    projectPath: Temp/UnityTempFile-c5ad1f8ea1769453cb753ba04cca6860
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-c86b960a3952f49c0b1e4faa8be05f1a
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-c86b960a3952f49c0b1e4faa8be05f1a
-    projectPath: Temp/UnityTempFile-c86b960a3952f49c0b1e4faa8be05f1a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-cb8745a54381548e9916a646cdf14499
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-cb8745a54381548e9916a646cdf14499
-    projectPath: Temp/UnityTempFile-cb8745a54381548e9916a646cdf14499
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-cbd6d65e7377d4d7fa1221b6b2cd4690
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-cbd6d65e7377d4d7fa1221b6b2cd4690
-    projectPath: Temp/UnityTempFile-cbd6d65e7377d4d7fa1221b6b2cd4690
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-d010750cb4b5848528c113ad4002e290
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-d010750cb4b5848528c113ad4002e290
-    projectPath: Temp/UnityTempFile-d010750cb4b5848528c113ad4002e290
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-d56ad3fb09d4147ebbdf3d096b148f7d
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-d56ad3fb09d4147ebbdf3d096b148f7d
-    projectPath: Temp/UnityTempFile-d56ad3fb09d4147ebbdf3d096b148f7d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-d6811f0ca65894136877df8358666e87
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-d6811f0ca65894136877df8358666e87
-    projectPath: Temp/UnityTempFile-d6811f0ca65894136877df8358666e87
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-daf3d0d4f869741d98a72ec0b916e77c
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-daf3d0d4f869741d98a72ec0b916e77c
-    projectPath: Temp/UnityTempFile-daf3d0d4f869741d98a72ec0b916e77c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-dce8a9dc400be46649398f659491280a
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-dce8a9dc400be46649398f659491280a
-    projectPath: Temp/UnityTempFile-dce8a9dc400be46649398f659491280a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-deb07351fbbb946968f62e36bc0a7d60
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-deb07351fbbb946968f62e36bc0a7d60
-    projectPath: Temp/UnityTempFile-deb07351fbbb946968f62e36bc0a7d60
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-e1db2dec34bfd4fabab78ff8f82d7663
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-e1db2dec34bfd4fabab78ff8f82d7663
-    projectPath: Temp/UnityTempFile-e1db2dec34bfd4fabab78ff8f82d7663
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-e3aee56359cff4daea728702a27c2944
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-e3aee56359cff4daea728702a27c2944
-    projectPath: Temp/UnityTempFile-e3aee56359cff4daea728702a27c2944
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-e77e25058695f41a39be890d2aa48b0d
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-e77e25058695f41a39be890d2aa48b0d
-    projectPath: Temp/UnityTempFile-e77e25058695f41a39be890d2aa48b0d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-f1ae3f4cfb3a5493cb43b826735067d8
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-f1ae3f4cfb3a5493cb43b826735067d8
-    projectPath: Temp/UnityTempFile-f1ae3f4cfb3a5493cb43b826735067d8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-f8bcdb8aabacc4a0da2e67928daf2641
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-f8bcdb8aabacc4a0da2e67928daf2641
-    projectPath: Temp/UnityTempFile-f8bcdb8aabacc4a0da2e67928daf2641
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-fd92bc6e8ada046eeb446bfcef2757dc
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-fd92bc6e8ada046eeb446bfcef2757dc
-    projectPath: Temp/UnityTempFile-fd92bc6e8ada046eeb446bfcef2757dc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/Upload/Assets/Scenes/SampleScene.unity
-    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/Upload/Assets/Scenes/SampleScene.unity
-    projectPath: Temp/Upload/Assets/Scenes/SampleScene.unity
+  - path: Temp/UnityTempFile-ce43562c9f847486f88bcabf5e68c200
+    fullPath: /Users/leticia/DJD1/DJD1_InsideOut/Temp/UnityTempFile-ce43562c9f847486f88bcabf5e68c200
+    projectPath: Temp/UnityTempFile-ce43562c9f847486f88bcabf5e68c200
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
