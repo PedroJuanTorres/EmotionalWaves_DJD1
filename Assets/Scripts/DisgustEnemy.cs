@@ -22,6 +22,7 @@ public class DisgustEnemy : MonoBehaviour
     [SerializeField]private SpriteRenderer  attackSprite;
     [SerializeField]private Transform       attackPosition;
     [SerializeField]private Rigidbody2D     attackRigidbody;
+    [SerializeField]private float           timeOfRespawn = 10.0f;
 
     private Rigidbody2D rb;
     private GameManager gm;
@@ -29,10 +30,12 @@ public class DisgustEnemy : MonoBehaviour
     private float       timeLeft;
     private float       timeLeftAttacking;
     private float       timeLeftGoop;
+    private float       timeLeftRespawn;
     private int         emotionState;
     private bool        isDisgustMonster = false;
     private int         health;
     private float       knockbackTimer;
+    private bool        isRespawning = false;
 
     // Start is called before the first frame update
     void Start()
@@ -44,6 +47,8 @@ public class DisgustEnemy : MonoBehaviour
         timeLeft = maxTimeMoving;
 
         timeLeftAttacking = timeOfAttack;
+
+        timeLeftRespawn = timeOfRespawn;
 
         gm = FindObjectOfType<GameManager>();
 
@@ -131,8 +136,20 @@ public class DisgustEnemy : MonoBehaviour
             knockbackTimer = knockbackTimer - Time.deltaTime;
         }
 
+        if(isRespawning)
+        {
+            timeLeftRespawn = timeLeftRespawn - Time.deltaTime;
+
+            if(timeLeftRespawn < 0)
+            {
+                isRespawning = false;
+
+                timeLeftRespawn = timeOfRespawn;
+            }
+        }
+
         emotionState = gm.GetCurrentEmotion();
-        if (emotionState == 2)
+        if (emotionState == 2 && !isRespawning)
         {
             isDisgustMonster = true;
             monsterCollider.enabled = true;
@@ -190,7 +207,13 @@ public class DisgustEnemy : MonoBehaviour
         }
         if(health==0)
         {
-            Destroy(gameObject);
+            health = 3;
+
+            isDisgustMonster = false;
+
+            monsterCollider.enabled = false;
+
+            isRespawning = true;
         }
         else
         {

@@ -19,16 +19,19 @@ public class AngerEnemy : MonoBehaviour
     [SerializeField]private Transform   playerCheckObject;
     [SerializeField]private float       playerCheckRadius = 3.0f;
     [SerializeField]private LayerMask   playerCheckLayer;
+    [SerializeField]private float       timeOfRespawn = 20.0f;
 
     private Rigidbody2D rb;
     private GameManager gm;
     private Animator    animator;
     private float       timeLeft;
     private float       timeLeftAttacking;
+    private float       timeLeftRespawn;
     private int         emotionState;
     private bool        isAngerMonster = false;
     private int         health;
     private float       knockbackTimer;
+    private bool        isRespawning = false;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +43,8 @@ public class AngerEnemy : MonoBehaviour
         timeLeft = maxTimeMoving;
 
         timeLeftAttacking = timeOfAttack;
+
+        timeLeftRespawn = timeOfRespawn;
 
         gm = FindObjectOfType<GameManager>();
 
@@ -126,8 +131,20 @@ public class AngerEnemy : MonoBehaviour
             knockbackTimer = knockbackTimer - Time.deltaTime;
         }
 
+        if(isRespawning)
+        {
+            timeLeftRespawn = timeLeftRespawn - Time.deltaTime;
+
+            if(timeLeftRespawn < 0)
+            {
+                isRespawning = false;
+
+                timeLeftRespawn = timeOfRespawn;
+            }
+        }
+
         emotionState = gm.GetCurrentEmotion();
-        if (emotionState == 1)
+        if (emotionState == 1 && !isRespawning)
         {
             isAngerMonster = true;
             monsterCollider.enabled = true;
@@ -185,7 +202,13 @@ public class AngerEnemy : MonoBehaviour
         }
         if(health==0)
         {
-            Destroy(gameObject);
+            health = 5;
+
+            isAngerMonster = false;
+
+            monsterCollider.enabled = false;
+
+            isRespawning = true;
         }
         else
         {

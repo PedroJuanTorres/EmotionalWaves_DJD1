@@ -14,15 +14,18 @@ public class FearEnemy : MonoBehaviour
     [SerializeField]private Transform   wallCheckObject;
     [SerializeField]private float       wallCheckRadius = 3.0f;
     [SerializeField]private LayerMask   wallCheckLayer;
+    [SerializeField]private float       timeOfRespawn = 10.0f;
 
     private Rigidbody2D rb;
     private GameManager gm;
     private Animator    animator;
     private float       timeLeft;
+    private float       timeLeftRespawn;
     private int         emotionState;
     private bool        isFearMonster = false;
     private int         health;
     private float       knockbackTimer;
+    private bool        isRespawning = false;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +35,8 @@ public class FearEnemy : MonoBehaviour
         animator = GetComponent<Animator>();
         
         timeLeft = maxTimeMoving;
+
+        timeLeftRespawn = timeOfRespawn;
 
         gm = FindObjectOfType<GameManager>();
 
@@ -79,8 +84,21 @@ public class FearEnemy : MonoBehaviour
             knockbackTimer = knockbackTimer - Time.deltaTime;
         }
 
+
+        if(isRespawning)
+        {
+            timeLeftRespawn = timeLeftRespawn - Time.deltaTime;
+
+            if(timeLeftRespawn < 0)
+            {
+                isRespawning = false;
+
+                timeLeftRespawn = timeOfRespawn;
+            }
+        }
+
         emotionState = gm.GetCurrentEmotion();
-        if (emotionState == 3)
+        if (emotionState == 3 && !isRespawning)
         {
             isFearMonster = true;
             monsterCollider.enabled = true;
@@ -138,7 +156,13 @@ public class FearEnemy : MonoBehaviour
         }
         if(health==0)
         {
-            Destroy(gameObject);
+            health = 2;
+
+            isFearMonster = false;
+
+            monsterCollider.enabled = false;
+
+            isRespawning = true;
         }
         else
         {

@@ -14,15 +14,18 @@ public class SadEnemy : MonoBehaviour
     [SerializeField]private Transform   wallCheckObject;
     [SerializeField]private float       wallCheckRadius = 3.0f;
     [SerializeField]private LayerMask   wallCheckLayer;
+    [SerializeField]private float       timeOfRespawn = 10.0f;
 
     private Rigidbody2D rb;
     private GameManager gm;
     private Animator    animator;
     private float       timeLeft;
+    private float       timeLeftRespawn;
     private int         emotionState;
     private bool        isSadMonster = false;
     private int         health;
     private float       knockbackTimer;
+    private bool        isRespawning = false;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +35,8 @@ public class SadEnemy : MonoBehaviour
         animator = GetComponent<Animator>();
         
         timeLeft = maxTimeMoving;
+
+        timeLeftRespawn = timeOfRespawn;
 
         gm = FindObjectOfType<GameManager>();
 
@@ -79,8 +84,20 @@ public class SadEnemy : MonoBehaviour
             knockbackTimer = knockbackTimer - Time.deltaTime;
         }
 
+        if(isRespawning)
+        {
+            timeLeftRespawn = timeLeftRespawn - Time.deltaTime;
+
+            if(timeLeftRespawn < 0)
+            {
+                isRespawning = false;
+
+                timeLeftRespawn = timeOfRespawn;
+            }
+        }
+
         emotionState = gm.GetCurrentEmotion();
-        if (emotionState == 4)
+        if (emotionState == 4 && !isRespawning)
         {
             isSadMonster = true;
             monsterCollider.enabled = true;
@@ -138,7 +155,13 @@ public class SadEnemy : MonoBehaviour
         }
         if(health==0)
         {
-            Destroy(gameObject);
+            health = 1;
+
+            isSadMonster = false;
+
+            monsterCollider.enabled = false;
+
+            isRespawning = true;
         }
         else
         {

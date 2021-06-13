@@ -959,7 +959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b5ac43d28c3b46f6a73070ef4e04b76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secondsBetweenSwitch: 20
+  secondsBetweenSwitch: 15
   switchSound: {fileID: 1523654542}
 --- !u!4 &217039894
 Transform:
@@ -1779,7 +1779,7 @@ MonoBehaviour:
   moveSpeed: 120
   maxTimeMoving: 7
   monsterCollider: {fileID: 599755039}
-  maxHealth: 2
+  maxHealth: 1
   knockbackVelocity: 400
   knockbackDuration: 0.25
   wallCheckObject: {fileID: 1448865334}
@@ -1787,6 +1787,7 @@ MonoBehaviour:
   wallCheckLayer:
     serializedVersion: 2
     m_Bits: 288
+  timeOfRespawn: 10
 --- !u!70 &599755039
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2158,7 +2159,7 @@ MonoBehaviour:
   moveSpeed: 200
   maxTimeMoving: 5
   monsterCollider: {fileID: 679634118}
-  maxHealth: 2
+  maxHealth: 3
   knockbackVelocity: 400
   knockbackDuration: 0.25
   wallCheckObject: {fileID: 58642473}
@@ -2176,6 +2177,7 @@ MonoBehaviour:
   attackSprite: {fileID: 1695503371}
   attackPosition: {fileID: 1695503368}
   attackRigidbody: {fileID: 1695503369}
+  timeOfRespawn: 10
 --- !u!70 &679634118
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3793,7 +3795,7 @@ MonoBehaviour:
   maxTimeMoving: 10
   monsterCollider: {fileID: 1196154244}
   punchCollider: {fileID: 1196154248}
-  maxHealth: 2
+  maxHealth: 5
   knockbackVelocity: 400
   knockbackDuration: 0.25
   wallCheckObject: {fileID: 2014355281}
@@ -3807,6 +3809,7 @@ MonoBehaviour:
   playerCheckLayer:
     serializedVersion: 2
     m_Bits: 1
+  timeOfRespawn: 10
 --- !u!70 &1196154244
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5412,6 +5415,7 @@ MonoBehaviour:
   wallCheckLayer:
     serializedVersion: 2
     m_Bits: 256
+  timeOfRespawn: 10
 --- !u!70 &1995958364
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
