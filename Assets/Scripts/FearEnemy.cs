@@ -11,6 +11,9 @@ public class FearEnemy : MonoBehaviour
     [SerializeField]private int         maxHealth = 2;
     [SerializeField]private float       knockbackVelocity = 400.0f;
     [SerializeField]private float       knockbackDuration = 0.25f;
+    [SerializeField]private Transform   wallCheckObject;
+    [SerializeField]private float       wallCheckRadius = 3.0f;
+    [SerializeField]private LayerMask   wallCheckLayer;
 
     private Rigidbody2D rb;
     private GameManager gm;
@@ -40,6 +43,10 @@ public class FearEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Collider2D collider = Physics2D.OverlapCircle(wallCheckObject.position, wallCheckRadius, wallCheckLayer);
+
+        bool isWall = (collider != null);
+
         Vector2 currentVelocity = rb.velocity;
 
         currentVelocity.x = moveDirection * moveSpeed;
@@ -47,7 +54,7 @@ public class FearEnemy : MonoBehaviour
         rb.velocity = currentVelocity;
 
         timeLeft = timeLeft - Time.deltaTime;
-        if(timeLeft < 0)
+        if(timeLeft < 0 || isWall)
         {
             moveDirection = moveDirection * (-1);
             if(moveDirection>0)

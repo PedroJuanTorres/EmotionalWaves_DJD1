@@ -14,27 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Audio.meta
-    - Assets/Audio/EmotionsSwitch.wav
-    - Assets/Audio/EmotionsSwitch.wav.meta
-    - Assets/Audio/EnemyDeath.wav
-    - Assets/Audio/EnemyDeath.wav.meta
-    - Assets/Audio/HitHurt.wav
-    - Assets/Audio/HitHurt.wav.meta
-    - Assets/Audio/Jump.wav
-    - Assets/Audio/Jump.wav.meta
-    - Assets/Audio/Punch.wav
-    - Assets/Audio/Punch.wav.meta
-    - Assets/Audio/TheCitySleeps.mp3
-    - Assets/Audio/TheCitySleeps.mp3.meta
-    - Assets/Scenes/SampleScene.unity
-    - Assets/Scripts/GameManager.cs
-    - Assets/Scripts/PlayerMovement.cs
-    - ProjectSettings/Physics2DSettings.asset
     - 
-    m_Values: 000000000000000000000000000000000000
+    m_Values: 01
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
-  TabIndex: 0
+  TabIndex: 1

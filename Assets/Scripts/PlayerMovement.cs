@@ -140,7 +140,7 @@ public class PlayerMovement : MonoBehaviour
        
 
        //Crouch
-        if(Input.GetButton("Vertical") && (isGround))
+        if(Input.GetButton("Vertical") && (isGround) && (!isPunching))
         { 
             crouchCollider.enabled = true;
             groundCollider.enabled = false;
@@ -165,6 +165,10 @@ public class PlayerMovement : MonoBehaviour
         
         groundCollider.enabled = isGround;
         airCollider.enabled = !isGround;
+        if(isCrouching)
+        {
+            groundCollider.enabled = false;
+        }
 
 
         if (invulnerabilityTimer > 0 )
