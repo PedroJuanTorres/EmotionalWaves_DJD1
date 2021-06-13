@@ -20,14 +20,19 @@ MonoBehaviour:
     - Assets/Animations/SadEnemy/SadMonsterAttack.anim.meta
     - Assets/Scenes/SampleScene.unity
     - Assets/Scripts/AngerEnemy.cs
+    - Assets/Scripts/CameraMovement.cs
     - Assets/Scripts/DisgustEnemy.cs
+    - Assets/Scripts/EndGame.cs
+    - Assets/Scripts/EndGame.cs.meta
     - Assets/Scripts/FearEnemy.cs
     - Assets/Scripts/GameManager.cs
+    - Assets/Scripts/Pause.cs
+    - Assets/Scripts/Pause.cs.meta
     - Assets/Scripts/SadEnemy.cs
     - Assets/Sprites/Enemies/SadMonsterAttackSprite.png
     - Assets/Sprites/Enemies/SadMonsterAttackSprite.png.meta
     - 
-    m_Values: 00000000000000000000000000
+    m_Values: 000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
