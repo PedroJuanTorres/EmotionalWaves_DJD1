@@ -5,8 +5,9 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField]private float secondsBetweenSwitch = 45;
+    [SerializeField]private AudioSource switchSound;
 
-    private float elapsedTimeSinceSwitch = 15;
+    private float elapsedTimeSinceSwitch = 17;
     private int emotionState = 0;
 
     // Start is called before the first frame update
@@ -25,6 +26,7 @@ public class GameManager : MonoBehaviour
         }
         if(elapsedTimeSinceSwitch > secondsBetweenSwitch)
         {
+            switchSound.Play();
             elapsedTimeSinceSwitch = 0;
             emotionState = Random.Range(1,5);
         }

@@ -14,46 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Animations/EmotionsPanelUI.meta
-    - Assets/Animations/EmotionsPanelUI/EmotionsPanelUI.controller
-    - Assets/Animations/EmotionsPanelUI/EmotionsPanelUI.controller.meta
-    - Assets/Animations/EmotionsPanelUI/angerPanel.anim
-    - Assets/Animations/EmotionsPanelUI/angerPanel.anim.meta
-    - Assets/Animations/EmotionsPanelUI/centralsadSprite.anim
-    - Assets/Animations/EmotionsPanelUI/centralsadSprite.anim.meta
-    - Assets/Animations/EmotionsPanelUI/disgustPanel.anim
-    - Assets/Animations/EmotionsPanelUI/disgustPanel.anim.meta
-    - Assets/Animations/EmotionsPanelUI/fearPanel.anim
-    - Assets/Animations/EmotionsPanelUI/fearPanel.anim.meta
-    - Assets/Animations/EmotionsPanelUI/sadPanel.anim
-    - Assets/Animations/EmotionsPanelUI/sadPanel.anim.meta
-    - Assets/Animations/EmotionsPanelUI/switching.anim
-    - Assets/Animations/EmotionsPanelUI/switching.anim.meta
-    - Assets/Animations/LivesUI.meta
-    - Assets/Animations/LivesUI/LivesUI.controller
-    - Assets/Animations/LivesUI/LivesUI.controller.meta
-    - Assets/Animations/LivesUI/lives1.anim
-    - Assets/Animations/LivesUI/lives1.anim.meta
-    - Assets/Animations/LivesUI/lives2.anim
-    - Assets/Animations/LivesUI/lives2.anim.meta
-    - Assets/Animations/LivesUI/lives3.anim
-    - Assets/Animations/LivesUI/lives3.anim.meta
-    - Assets/Animations/Player/Player.controller
+    - Assets/Audio.meta
+    - Assets/Audio/EmotionsSwitch.wav
+    - Assets/Audio/EmotionsSwitch.wav.meta
+    - Assets/Audio/EnemyDeath.wav
+    - Assets/Audio/EnemyDeath.wav.meta
+    - Assets/Audio/HitHurt.wav
+    - Assets/Audio/HitHurt.wav.meta
+    - Assets/Audio/Jump.wav
+    - Assets/Audio/Jump.wav.meta
+    - Assets/Audio/Punch.wav
+    - Assets/Audio/Punch.wav.meta
+    - Assets/Audio/TheCitySleeps.mp3
+    - Assets/Audio/TheCitySleeps.mp3.meta
     - Assets/Scenes/SampleScene.unity
-    - Assets/Scripts/AngerEnemy.cs
-    - Assets/Scripts/DisgustEnemy.cs
-    - Assets/Scripts/EmotionsPanel.cs
-    - Assets/Scripts/EmotionsPanel.cs.meta
-    - Assets/Scripts/FearEnemy.cs
     - Assets/Scripts/GameManager.cs
-    - Assets/Scripts/LivesUI.cs
-    - Assets/Scripts/LivesUI.cs.meta
     - Assets/Scripts/PlayerMovement.cs
-    - Assets/Scripts/Punch.cs
-    - Assets/Scripts/SadEnemy.cs
-    - ProjectSettings/TagManager.asset
+    - ProjectSettings/Physics2DSettings.asset
     - 
-    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

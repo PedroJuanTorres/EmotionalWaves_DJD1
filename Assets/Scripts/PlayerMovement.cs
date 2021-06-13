@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]private float       maxJumpTime = 0.1f;
     [SerializeField]private Collider2D  groundCollider;
     [SerializeField]private Collider2D  airCollider;
+    [SerializeField]private Collider2D  crouchCollider;
     [SerializeField]private Collider2D  punchCollider;
     [SerializeField]private int         jumpGravityStart = 1;
     [SerializeField]private Transform   groundCheckObject;
@@ -21,6 +23,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]private float       blinkDuration = 0.1f;
     [SerializeField]private float       knockbackVelocity = 400.0f;
     [SerializeField]private float       knockbackDuration = 0.25f;
+    [SerializeField]private AudioSource jumpSound;
+    [SerializeField]private AudioSource punchSound;
+    [SerializeField]private AudioSource hurtSound;
 
     //Variables
     private float           hAxis;
@@ -81,6 +86,8 @@ public class PlayerMovement : MonoBehaviour
         //Jumping mechanic
         if(Input.GetButtonDown("Jump") && (isGround))
         {
+            jumpSound.Play();
+
             currentVelocity.y = jumpSpeed;
 
             rb.velocity = currentVelocity;
@@ -118,11 +125,13 @@ public class PlayerMovement : MonoBehaviour
         //Punch
         if(Input.GetButton("Fire3") && (isGround))
         { 
-           punchCollider.enabled = true;
+            punchSound.Play();
+
+            punchCollider.enabled = true;
 
             isPunching = true;
         }  
-        if(Input.GetButtonUp("Fire3") || (isGround == false))
+        if(Input.GetButtonUp("Fire3") || (!isGround)|| currentVelocity.x > 150.0 || currentVelocity.x < -150.0)
         {
             punchCollider.enabled = false;
 
@@ -133,12 +142,16 @@ public class PlayerMovement : MonoBehaviour
        //Crouch
         if(Input.GetButton("Vertical") && (isGround))
         { 
-           
+            crouchCollider.enabled = true;
+            groundCollider.enabled = false;
 
             isCrouching = true;
         }  
-        if(Input.GetButtonUp("Vertical") || isGround == false || currentVelocity.x > 0.1 || currentVelocity.x < -0.1)
+        if(Input.GetButtonUp("Vertical") || !isGround  || currentVelocity.x > 0.1 || currentVelocity.x < -0.1)
         {
+            crouchCollider.enabled = false;
+            groundCollider.enabled = true;
+
             isCrouching = false;
         }
         
@@ -210,6 +223,7 @@ public class PlayerMovement : MonoBehaviour
 
         if(!canHit) return;
 
+        hurtSound.Play();
 
         health = health - damage;
 
@@ -219,7 +233,7 @@ public class PlayerMovement : MonoBehaviour
         }
         if(health==0)
         {
-            Destroy(gameObject);
+            SceneManager.LoadScene("MainMenu");
         }
         else
         {
